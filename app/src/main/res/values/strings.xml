@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">SkillboxCinema</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="skip_onboarding">Пропустить</string>
+
+    <string name="find_out_about_premieres">Узнавай об премьерах</string>
+    <string name="make_collections">Создавай коллекции</string>
+    <string name="share_with_friends">Делись с друзьями</string>
+
+    <string name="premieres">Премьеры</string>
+    <string name="popular">Популярное</string>
+    <string name="top_250">Топ-250</string>
+
+    <string name="usa_actions">Боевики США</string>
+    <string name="french_dramas">Французские Драмы</string>
+    <string name="british_comedy">Британские Комедии</string>
+
+    <string name="japan_anime">Японское Аниме</string>
+    <string name="soviet_military">Советские фильмы о войне</string>
+    <string name="russian_criminal">Российские фильмы о криминале</string>
+
+    <string name="series">Сериалы</string>
+    <string name="movies">Фильмы</string>
+    <string name="all">Все</string>
+
+    <string name="starring_movie">В фильме снимались</string>
+    <string name="staff_movie">Над фильмом работали</string>
+    
+    <string name="career">Карьера</string>
+    <string name="sex">Пол</string>
+    <string name="birthday">Дата рождения</string>
+    <string name="age">Возраст</string>
+    <string name="birthplace">Место рождения</string>
+    <string name="death">Дата смерти</string>
+    <string name="best">Лучшее</string>
+    <string name="filmography">Фильмография</string>
+    <string name="to_filmography">К списку</string>
+
+    <string name="actor_female">Актриса</string>
+    <string name="actor_male">Актёр</string>
+    <string name="director">Режиссёр</string>
+    <string name="producer">Продюсер</string>
+    <string name="herself">Играет саму себя</string>
+    <string name="himself">Играет самого себя</string>
+    <string name="writer">Сценарист</string>
+    <string name="hrono_titr">Упоминание</string>
+
+    <string name="similar">Похожие фильмы и сериалы</string>
+    <string name="similar_movies">Похожие фильмы и сериалы</string>
+    <string name="similar_series">Похожие сериалы</string>
+
+    <string name="gallery">Галерея</string>
+    <string name="still">Кадры</string>
+    <string name="shooting">Со съёмок</string>
+    <string name="posters">Постеры</string>
+
+    <string name="season">Сезон</string>
+    <string name="choose_season">Выберите сезон</string>
+
+    <string name="starring_serial">В сериале снимались</string>
+    <string name="staff_serial">Над сериалом работали</string>
+    <string name="serial_info_seasons">Сезоны и серии</string>
+
+    <string name="search_hint">Фильмы, актёры, режиссёры</string>
+
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+
+    <string name="seen">Просмотрено</string>
+    <string name="collections">Коллекции</string>
+    <string name="make_collection">Создать свою коллекцию</string>
+    <string name="were_interested">Вам было интересно</string>
+    <string name="custom_collection">Моя коллекция</string>
+    <string name="collection_error">Нельзя иметь больше двух пользовательских коллекций</string>
+
+    <string name="search_settings">Настройки поиска</string>
+    <string name="country">Страна</string>
+    <string name="genre">Жанр</string>
+    <string name="year">Год</string>
+    <string name="rating">Рейтинг</string>
+    <string name="date">Дата</string>
+    <string name="popularity">Популярность</string>
+    <string name="search_show">Показывать</string>
+    <string name="search_sort">Сортировать</string>
+    <string name="calendar_title">Период</string>
+    <string name="year_from">Искать в период с</string>
+    <string name="year_to">Искать в период до</string>
+    <string name="select_year">Выберите год</string>
+    <string name="accept">Применить</string>
+    <string name="select">Выбрать</string>
+    <string name="cancel">Отменить</string>
+
+    <string name="title_error">Ошибка</string>
+    <string name="error_description">Произошла ошибка получения данных(Привышен лимит запросов)</string>
+    <string name="description_null">Описание отсутсвует</string>
+    <string name="min">мин</string>
+    <string name="favorites">Любимые</string>
+    <string name="want_see">Хочу посмотреть</string>
+    <string name="imdb_error">Данного фильма нет на IMDB</string>
+    <string name="hide_Watched">Скрыть просмотренные фильмы</string>
+    <string name="show_Watched">Показывать просмотренные фильмы</string>
+    <string name="year_error">Выбран неверный промежуток поиска!</string>
+    <string name="search_error">К сожалению,по вашему запросу ничего не найдено</string>
+    <string name="enter_title">Напишите название коллекции</string>
+    
+    <string name="input_error">Ошибка ввода</string>
+
+    <string name="add_to_collection">Добавить в коллекцию</string>
+    <string name="cancel_button">Отмена</string>
+</resources>

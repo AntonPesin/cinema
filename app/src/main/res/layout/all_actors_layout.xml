@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".all.AllMovies">
+
+
+    <TextView
+        android:id="@+id/all_staff_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="50dp"
+        android:maxLines="1"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/main_title_style"
+        android:textSize="20sp"
+        tools:ignore="TextSizeCheck"
+        tools:text="@string/staff_movie" />
+
+    <ImageView
+        android:id="@+id/all_staff_back_button"
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/all_staff_title"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/back_icon" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/staff_rv"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_above="@+id/navigation"
+        android:layout_below="@+id/all_staff_title"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="-11dp"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2" />
+
+    <com.example.android_coursework_lvl1.customviews.CustomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+
+    </RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="148dp"
+        android:layout_height="148dp"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/custom_collection_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/collection_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:padding="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/frame"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:background="@drawable/collection_frame"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/custom_collection_name"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:focusable="true"
+            android:clickable="true"
+            app:layout_constraintTop_toBottomOf="@+id/custom_collection_image"
+            tools:text="Коллекция">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/custom_collection_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:src="@drawable/icons"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+
+        <RelativeLayout
+            android:id="@+id/numbers_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/custom_collection_name">
+
+            <ImageView
+                android:id="@+id/numbers_imageview"
+                android:layout_width="30dp"
+                android:layout_height="15dp"
+                android:background="@drawable/homepage_film_rating">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/custom_collection_numbers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@id/numbers_imageview"
+                android:layout_alignTop="@id/numbers_imageview"
+                android:layout_alignEnd="@id/numbers_imageview"
+                android:layout_alignBottom="@id/numbers_imageview"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textAppearance="@style/numbers_style"
+                tools:text="100">
+
+            </TextView>
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

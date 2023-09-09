@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:id="@+id/episodeNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        tools:text="1 сезон, Зима близко" />
+
+    <TextView
+        android:id="@+id/releaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/episodeNumber"
+        app:layout_constraintTop_toBottomOf="@+id/episodeNumber"
+        android:layout_marginTop="5dp"
+        android:textSize="11sp"
+        android:textColor="#838390"
+        tools:text="2001" />
+
+    <TextView
+        android:id="@+id/synopsis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/releaseDate"
+        app:layout_constraintTop_toBottomOf="@+id/releaseDate"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:textSize="14sp"
+        tools:text="synopsis" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

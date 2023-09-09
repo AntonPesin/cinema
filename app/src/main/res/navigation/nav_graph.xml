@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/OnboardingFirst">
+
+    <fragment
+        android:id="@+id/OnboardingFirst"
+        android:name="com.example.android_coursework_lvl1.onboarding.OnboardingFirstFragment"
+        android:label="OnboardingFirstFragment">
+        <action
+            android:id="@+id/action_onboardingFirst_to_onboardingSecond"
+            app:destination="@id/OnboardingSecond" />
+    </fragment>
+    <fragment
+        android:id="@+id/OnboardingSecond"
+        android:name="com.example.android_coursework_lvl1.onboarding.OnboardingSecondFragment"
+        android:label="OnboardingSecondFragment">
+        <action
+            android:id="@+id/action_onboardingSecond_to_onboardingThird"
+            app:destination="@id/OnboardingThird" />
+    </fragment>
+    <fragment
+        android:id="@+id/OnboardingThird"
+        android:name="com.example.android_coursework_lvl1.onboarding.OnboardingThirdFragment"
+        android:label="OnboardingThirdFragment">
+        <action
+            android:id="@+id/action_OnboardingThird_to_loader"
+            app:destination="@id/loader" />
+    </fragment>
+    <fragment
+        android:id="@+id/loader"
+        android:name="com.example.android_coursework_lvl1.onboarding.LoaderFragment"
+        android:label="Loader">
+        <action
+            android:id="@+id/action_loader_to_homepage"
+            app:destination="@id/homepage" />
+    </fragment>
+    <fragment
+        android:id="@+id/homepage"
+        android:name="com.example.android_coursework_lvl1.navigationPages.Home"
+        android:label="Homepage">
+        <action
+            android:id="@+id/action_homepage_to_allMovies"
+            app:destination="@id/allMovies">
+            <argument
+                android:name="category"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/action_homepage_to_moviePage"
+            app:destination="@id/moviePage" />
+        <action
+            android:id="@+id/action_homepage_to_search"
+            app:destination="@id/search" />
+        <action
+            android:id="@+id/action_homepage_to_profile"
+            app:destination="@id/profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/allMovies"
+        android:name="com.example.android_coursework_lvl1.all.AllMovies"
+        android:label="AllMoviesFragments">
+        <action
+            android:id="@+id/action_allMovies_to_homepage"
+            app:destination="@id/homepage" />
+        <action
+            android:id="@+id/action_allMovies_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_allMovies_to_moviePage"
+            app:destination="@id/moviePage" />
+        <action
+            android:id="@+id/action_allMovies_to_search"
+            app:destination="@id/search" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/moviePage"
+        android:name="com.example.android_coursework_lvl1.pages.MoviePage"
+        android:label="movie_info_layout"
+        tools:layout="@layout/movie_layout">
+        <action
+            android:id="@+id/action_moviePage_to_allStaff"
+            app:destination="@id/allStaff" />
+        <action
+            android:id="@+id/action_moviePage_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_moviePage_to_search"
+            app:destination="@id/search" />
+        <action
+            android:id="@+id/action_moviePage_to_homepage"
+            app:destination="@id/homepage" />
+        <action
+            android:id="@+id/action_moviePage_to_gallery"
+            app:destination="@id/gallery" />
+        <action
+            android:id="@+id/action_moviePage_to_similar"
+            app:destination="@id/similar" />
+        <action
+            android:id="@+id/action_moviePage_to_actorPage"
+            app:destination="@id/personPage" />
+        <action
+            android:id="@+id/action_moviePage_to_imagePage"
+            app:destination="@id/imagePage" />
+        <action
+            android:id="@+id/action_moviePage_to_seasonsPage"
+            app:destination="@id/seasonsPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/search"
+        android:name="com.example.android_coursework_lvl1.navigationPages.Search"
+        android:label="search_layout"
+        tools:layout="@layout/search_layout">
+        <action
+            android:id="@+id/action_search_to_homepage"
+            app:destination="@id/homepage" />
+        <action
+            android:id="@+id/action_search_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_search_to_searchSettings"
+            app:destination="@id/searchSettings" />
+        <action
+            android:id="@+id/action_search_to_moviePage"
+            app:destination="@id/moviePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.android_coursework_lvl1.navigationPages.Profile"
+        android:label="Profile">
+        <action
+            android:id="@+id/action_profile_to_search"
+            app:destination="@id/search" />
+        <action
+            android:id="@+id/action_profile_to_homepage"
+            app:destination="@id/homepage" />
+        <action
+            android:id="@+id/action_profile_to_collection"
+            app:destination="@id/collection" />
+        <action
+            android:id="@+id/action_profile_to_moviePage"
+            app:destination="@id/moviePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/allStaff"
+        android:name="com.example.android_coursework_lvl1.all.AllStaff"
+        android:label="AllStaff">
+        <action
+            android:id="@+id/action_allStaff_to_search"
+            app:destination="@id/search" />
+        <action
+            android:id="@+id/action_allStaff_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_allStaff_to_homepage"
+            app:destination="@id/homepage" />
+        <action
+            android:id="@+id/action_allStaff_to_actorPage"
+            app:destination="@id/personPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/gallery"
+        android:name="com.example.android_coursework_lvl1.pages.GalleryPage"
+        android:label="Gallery">
+        <action
+            android:id="@+id/action_gallery_to_search"
+            app:destination="@id/search" />
+        <action
+            android:id="@+id/action_gallery_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_gallery_to_homepage"
+            app:destination="@id/homepage" />
+    </fragment>
+    <fragment
+        android:id="@+id/similar"
+        android:name="com.example.android_coursework_lvl1.pages.SimilarPage"
+        android:label="Similar">
+        <action
+            android:id="@+id/action_similar_to_search"
+            app:destination="@id/search" />
+        <action
+            android:id="@+id/action_similar_to_moviePage"
+            app:destination="@id/moviePage" />
+        <action
+            android:id="@+id/action_similar_to_homepage"
+            app:destination="@id/homepage" />
+        <action
+            android:id="@+id/action_similar_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_similar_to_moviePage2"
+            app:destination="@id/moviePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/personPage"
+        android:name="com.example.android_coursework_lvl1.pages.PersonPage"
+        android:label="ActorPage">
+        <action
+            android:id="@+id/action_personPage_to_search"
+            app:destination="@id/search" />
+        <action
+            android:id="@+id/action_personPage_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_personPage_to_homepage"
+            app:destination="@id/homepage" />
+        <action
+            android:id="@+id/action_personPage_to_filmography"
+            app:destination="@id/filmography" />
+        <action
+            android:id="@+id/action_personPage_to_moviePage"
+            app:destination="@id/moviePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/filmography"
+        android:name="com.example.android_coursework_lvl1.pages.FilmographyPage"
+        android:label="Filmography">
+        <action
+            android:id="@+id/action_filmography_to_search"
+            app:destination="@id/search" />
+        <action
+            android:id="@+id/action_filmography_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_filmography_to_homepage"
+            app:destination="@id/homepage" />
+        <action
+            android:id="@+id/action_filmography_to_moviePage"
+            app:destination="@id/moviePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/imagePage"
+        android:name="com.example.android_coursework_lvl1.pages.ImagePage"
+        android:label="ImagePage">
+        <action
+            android:id="@+id/action_imagePage_to_homepage"
+            app:destination="@id/homepage" />
+        <action
+            android:id="@+id/action_imagePage_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_imagePage_to_search"
+            app:destination="@id/search" />
+    </fragment>
+    <fragment
+        android:id="@+id/seasonsPage"
+        android:name="com.example.android_coursework_lvl1.pages.SeasonsPage"
+        android:label="SeasonsPage">
+        <action
+            android:id="@+id/action_seasonsPage_to_search"
+            app:destination="@id/search" />
+        <action
+            android:id="@+id/action_seasonsPage_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_seasonsPage_to_homepage"
+            app:destination="@id/homepage" />
+    </fragment>
+    <fragment
+        android:id="@+id/collection"
+        android:name="com.example.android_coursework_lvl1.collection.Collection"
+        android:label="Collection" >
+        <action
+            android:id="@+id/action_collection_to_homepage"
+            app:destination="@id/homepage" />
+        <action
+            android:id="@+id/action_collection_to_search"
+            app:destination="@id/search" />
+        <action
+            android:id="@+id/action_collection_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_collection_to_moviePage"
+            app:destination="@id/moviePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchSettings"
+        android:name="com.example.android_coursework_lvl1.search.SearchSettings"
+        android:label="SearchSettings" >
+        <action
+            android:id="@+id/action_searchSettings_to_search"
+            app:destination="@id/search" />
+    </fragment>
+</navigation>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>США</item>
+        <item>Швейцария</item>
+        <item>Франция</item>
+        <item>Польша</item>
+        <item>Великобритания</item>
+        <item>Швеция</item>
+        <item>Индия</item>
+        <item>Испания</item>
+        <item>Германия</item>
+        <item>Италия</item>
+        <item>Гонконг</item>
+        <item>Германия (ФРГ)</item>
+        <item>Австралия</item>
+        <item>Канада</item>
+        <item>Мексика</item>
+        <item>Япония</item>
+        <item>Дания</item>
+        <item>Чехия</item>
+        <item>Ирландия</item>
+        <item>Люксембург</item>
+        <item>Китай</item>
+        <item>Норвегия</item>
+        <item>Нидерланды</item>
+        <item>Аргентина</item>
+        <item>Финляндия</item>
+        <item>Босния и Герцеговина</item>
+        <item>Австрия</item>
+        <item>Тайвань</item>
+        <item>Новая Зеландия</item>
+        <item>Бразилия</item>
+        <item>Чехословакия</item>
+        <item>Мальта</item>
+        <item>СССР</item>
+        <item>Россия</item>
+        <item>Югославия</item>
+        <item>Португалия</item>
+        <item>Румыния</item>
+        <item>Хорватия</item>
+        <item>ЮАР</item>
+        <item>Куба</item>
+        <item>Колумбия</item>
+        <item>Израиль</item>
+        <item>Намибия</item>
+        <item>Турция</item>
+        <item>Бельгия</item>
+        <item>Сальвадор</item>
+        <item>Исландия</item>
+        <item>Венгрия</item>
+        <item>Корея Южная</item>
+        <item>Лихтенштейн</item>
+        <item>Болгария</item>
+        <item>Филиппины</item>
+        <item>Доминикана</item>
+        <item>Марокко</item>
+        <item>Таиланд</item>
+        <item>Кения</item>
+        <item>Пакистан</item>
+        <item>Иран</item>
+        <item>Панама</item>
+        <item>Аруба</item>
+        <item>Ямайка</item>
+        <item>Греция</item>
+        <item>Тунис</item>
+        <item>Кыргызстан</item>
+        <item>Пуэрто Рико</item>
+        <item>Казахстан</item>
+        <item>Югославия (ФР)</item>
+        <item>Алжир</item>
+        <item>Германия (ГДР)</item>
+        <item>Сингапур</item>
+        <item>Словакия</item>
+        <item>Афганистан</item>
+        <item>Индонезия</item>
+        <item>Перу</item>
+        <item>Бермуды</item>
+        <item>Монако</item>
+        <item>Зимбабве</item>
+        <item>Вьетнам</item>
+        <item>Антильские Острова</item>
+        <item>Саудовская Аравия</item>
+        <item>Танзания</item>
+        <item>Ливия</item>
+        <item>Ливан</item>
+        <item>Кувейт</item>
+        <item>Египет</item>
+        <item>Литва</item>
+        <item>Венесуэла</item>
+        <item>Словения</item>
+        <item>Чили</item>
+        <item>Багамы</item>
+        <item>Эквадор</item>
+        <item>Коста-Рика</item>
+        <item>Кипр</item>
+        <item>Уругвай</item>
+        <item>Ирак</item>
+        <item>Мартиника</item>
+        <item>Эстония</item>
+        <item>ОАЭ</item>
+        <item>Бангладеш</item>
+    </string-array>
+</resources>

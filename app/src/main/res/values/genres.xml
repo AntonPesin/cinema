@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genres">
+        <item>триллер</item>
+        <item>драма</item>
+        <item>криминал</item>
+        <item>мелодрама</item>
+        <item>детектив</item>
+        <item>фантастика</item>
+        <item>приключения</item>
+        <item>биография</item>
+        <item>фильм-нуар</item>
+        <item>вестерн</item>
+        <item>боевик</item>
+        <item>фэнтези</item>
+        <item>комедия</item>
+        <item>военный</item>
+        <item>история</item>
+        <item>музыка</item>
+        <item>ужасы</item>
+        <item>мультфильм</item>
+        <item>семейный</item>
+        <item>мюзикл</item>
+        <item>спорт</item>
+        <item>документальный</item>
+        <item>короткометражка</item>
+        <item>аниме</item>
+        <item>новости</item>
+        <item>концерт</item>
+        <item>для взрослых</item>
+        <item>церемония</item>
+        <item>реальное ТВ</item>
+        <item>игра</item>
+        <item>ток-шоу</item>
+        <item>детский</item>
+    </string-array>
+</resources>
