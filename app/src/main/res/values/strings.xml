@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">SkillboxCinema</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="skip_onboarding">Пропустить</string>
+
+    <string name="find_out_about_premieres">Узнавай об премьерах</string>
+    <string name="make_collections">Создавай коллекции</string>
+    <string name="share_with_friends">Делись с друзьями</string>
+
+    <string name="premieres">Премьеры</string>
+    <string name="popular">Популярное</string>
+    <string name="top_250">Топ-250</string>
+
+    <string name="usa_actions">Боевики США</string>
+    <string name="french_dramas">Французские Драмы</string>
+    <string name="british_comedy">Британские Комедии</string>
+
+    <string name="japan_anime">Японское Аниме</string>
+    <string name="soviet_military">Советские фильмы о войне</string>
+    <string name="russian_criminal">Российские фильмы о криминале</string>
+
+    <string name="series">Сериалы</string>
+
+    <string name="homepage_all">Все</string>
+
+    <string name="starring_movie">В фильме снимались</string>
+    <string name="staff_movie">Над фильмом работали</string>
+    
+    <string name="career">Карьера</string>
+    <string name="sex">Пол</string>
+    <string name="birthday">Дата рождения</string>
+    <string name="age">Возраст</string>
+    <string name="birthplace">Место рождения</string>
+    <string name="death">Дата смерти</string>
+    
+    
+    <string name="similar_movies">Похожие фильмы</string>
+
+    <string name="gallery">Галерея</string>
+    <string name="still">Кадры</string>
+    <string name="shooting">Со съёмок</string>
+    <string name="posters">Постеры</string>
+
+    <string name="filmography">Фильмография</string>
+
+    <string name="season">Сезон</string>
+
+    <string name="similar_series">Похожие сериалы</string>
+    <string name="starring_serial">В сериале снимались</string>
+    <string name="staff_serial">Над сериалом работали</string>
+    <string name="serial_info_seasons">Сезоны и серии</string>
+
+    <string name="search_hint">Фильмы, актёры, режиссёры</string>
+
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+
+    <string name="error_title">Ошибка</string>
+    <string name="error_description">Произошла ошибка получения данных</string>
+
+    <string name="description_null">Описание отсутсвует</string>
+    <string name="min">мин</string>
+</resources>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/actor_page_back_button"
+        android:layout_width="10dp"
+        android:layout_height="15dp"
+        android:layout_above="@+id/photo"
+        android:background="@drawable/back_icon"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/name"
+        app:layout_constraintStart_toStartOf="@+id/photo"
+        app:layout_constraintTop_toTopOf="@+id/name" />
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:layout_goneMarginStart="100dp">
+
+    </ImageView>
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        android:gravity="center_horizontal|top"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:textAppearance="@style/main_title_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextSizeCheck"
+        tools:text="Ivan Ivanov" />
+
+    <TextView
+        android:id="@+id/profession_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/career"
+        android:textAppearance="@style/actorpage_style"
+        app:layout_constraintStart_toEndOf="@+id/photo"
+        app:layout_constraintTop_toBottomOf="@+id/name">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/profession_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profession_category"
+        app:layout_constraintTop_toTopOf="@+id/profession_category"
+        tools:text="Actor">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/sex_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/sex"
+        android:textAppearance="@style/actorpage_style"
+        app:layout_constraintStart_toEndOf="@+id/photo"
+        app:layout_constraintTop_toBottomOf="@+id/profession_info">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/sex_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sex_category"
+        app:layout_constraintTop_toTopOf="@+id/sex_category"
+        tools:text="Male">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/age_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/age"
+        android:textAppearance="@style/actorpage_style"
+        app:layout_constraintStart_toEndOf="@+id/photo"
+        app:layout_constraintTop_toBottomOf="@+id/sex_info">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/age_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/age_category"
+        app:layout_constraintTop_toTopOf="@+id/age_category"
+        tools:text="54">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/birthday_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/birthday"
+        android:textAppearance="@style/actorpage_style"
+        app:layout_constraintStart_toEndOf="@+id/photo"
+        app:layout_constraintTop_toBottomOf="@+id/age_info">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/birthday_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:maxLines="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/birthday_category"
+        app:layout_constraintTop_toTopOf="@+id/birthday_category"
+        tools:text="12/02/1994">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/death_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/death"
+        android:textAppearance="@style/actorpage_style"
+        app:layout_constraintStart_toEndOf="@+id/photo"
+        app:layout_constraintTop_toBottomOf="@+id/birthday_category">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/death_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:maxLines="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/death_category"
+        app:layout_constraintTop_toTopOf="@+id/death_category"
+        tools:text="15/02/2021">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/best_movies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/best_rv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo"
+        tools:text="Лучшее">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/all_best_movies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homepage_all"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/best_movies"
+        app:layout_constraintEnd_toEndOf="@+id/best_rv"
+        app:layout_constraintTop_toTopOf="@+id/best_movies">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/best_rv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintBottom_toTopOf="@+id/navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/photo"
+        app:layout_constraintTop_toBottomOf="@+id/photo"
+        app:layout_constraintVertical_bias="0.223">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/films"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@+id/best_rv"
+        app:layout_constraintTop_toBottomOf="@+id/best_rv"
+        tools:text="Фильмография">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/all_films"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/films"
+        app:layout_constraintStart_toStartOf="@+id/films"
+        app:layout_constraintTop_toBottomOf="@+id/films"
+        tools:text="45 фильмов">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/to_all_films"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/films"
+        app:layout_constraintEnd_toEndOf="@+id/best_rv"
+        app:layout_constraintTop_toTopOf="@+id/films"
+        tools:text="К списку">
+
+    </TextView>
+
+    <com.example.android_coursework_lvl1.customviews.CustomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

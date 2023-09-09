@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/gallery_nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toTopOf="@id/navigation"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <FrameLayout
+            android:id="@+id/gallery_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/gallery_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="UselessParent">
+
+
+                    <TextView
+                        android:id="@+id/gallery_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="100dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginEnd="100dp"
+                        android:gravity="center_horizontal|top"
+                        android:maxLines="1"
+                        android:text="@string/gallery"
+                        android:textAppearance="@style/main_title_style"
+                        android:textSize="20sp"
+                        tools:ignore="TextSizeCheck" />
+
+                    <ImageView
+                        android:id="@+id/gallery_icon_back"
+                        android:layout_width="10dp"
+                        android:layout_height="15dp"
+                        android:layout_alignTop="@+id/gallery_title"
+                        android:layout_alignBottom="@+id/gallery_title"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginEnd="30dp"
+                        android:background="@drawable/back_icon"
+                        android:clickable="true"
+                        android:focusable="true" />
+
+
+                    <ImageView
+                        android:id="@+id/still"
+                        android:layout_width="107dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/gallery_title"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/gallery_buttons_enabled"
+                        android:clickable="true"
+                        android:enabled="false"
+                        android:focusable="true" />
+
+                    <TextView
+                        android:id="@+id/still_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@id/still"
+                        android:layout_alignTop="@id/still"
+                        android:layout_alignBottom="@id/still"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/still"
+                        android:textAppearance="@style/main_title_style"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/still_number"
+                        android:layout_width="18dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/still"
+                        android:layout_alignEnd="@+id/still"
+                        android:layout_alignBottom="@id/still"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_toEndOf="@+id/still_textview"
+                        android:gravity="center"
+                        android:textColor="#B5B5C9"
+                        android:textSize="15sp"
+                        tools:text="300">
+
+                    </TextView>
+
+
+                    <ImageView
+                        android:id="@+id/shooting"
+                        android:layout_width="134dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/gallery_title"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_toEndOf="@+id/still"
+                        android:background="@drawable/gallery_buttons_disabled"
+                        android:clickable="true"
+                        android:enabled="true"
+                        android:focusable="true">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/shooting_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@id/shooting"
+                        android:layout_alignTop="@id/shooting"
+                        android:layout_alignBottom="@id/shooting"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/shooting"
+                        android:textAppearance="@style/main_title_style"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/shooting_number"
+                        android:layout_width="18dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/shooting"
+                        android:layout_alignEnd="@+id/shooting"
+                        android:layout_alignBottom="@id/shooting"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_toEndOf="@+id/shooting_textview"
+                        android:gravity="center"
+                        android:textColor="#B5B5C9"
+                        android:textSize="15sp"
+                        tools:text="30">
+
+                    </TextView>
+
+
+                    <ImageView
+                        android:id="@+id/posters"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/gallery_title"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_toEndOf="@+id/shooting"
+                        android:background="@drawable/gallery_buttons_disabled"
+                        android:clickable="true"
+                        android:enabled="true"
+                        android:focusable="true">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/posters_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@id/posters"
+                        android:layout_alignTop="@id/posters"
+                        android:layout_alignBottom="@id/posters"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/posters"
+                        android:textAppearance="@style/main_title_style"
+                        android:textSize="15sp">
+
+                    </TextView>
+
+
+                    <TextView
+                        android:id="@+id/posters_number"
+                        android:layout_width="18dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/posters"
+                        android:layout_alignEnd="@+id/posters"
+                        android:layout_alignBottom="@id/posters"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_toEndOf="@+id/posters_textview"
+                        android:gravity="center"
+                        android:textColor="#B5B5C9"
+                        android:textSize="15sp"
+                        tools:text="30">
+
+                    </TextView>
+
+                </RelativeLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="150dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/gallery_rv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:spanCount="2"></androidx.recyclerview.widget.RecyclerView>
+
+            </FrameLayout>
+        </FrameLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.example.android_coursework_lvl1.customviews.CustomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
