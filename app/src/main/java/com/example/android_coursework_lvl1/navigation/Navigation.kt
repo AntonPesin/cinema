@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.core.os.bundleOf
 import androidx.navigation.NavController
 import com.example.android_coursework_lvl1.R
-
 class Navigation(private val navController: NavController) {
 
     private fun getCurrentDestinationId(): Int? {

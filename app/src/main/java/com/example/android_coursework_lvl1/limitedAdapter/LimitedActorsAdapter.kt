@@ -7,7 +7,6 @@ import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.adapter.ActorsViewHolder
 import com.example.android_coursework_lvl1.databinding.StaffItemBinding
 import com.example.android_coursework_lvl1.models.StaffModel
-
 class LimitedActorsAdapter : RecyclerView.Adapter<ActorsViewHolder>() {
 
     private var actorsList: List<StaffModel> = emptyList()

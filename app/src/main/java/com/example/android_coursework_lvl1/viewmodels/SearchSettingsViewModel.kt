@@ -7,7 +7,6 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.doublePreferencesKey
 import androidx.datastore.preferences.core.edit
-import androidx.datastore.preferences.core.floatPreferencesKey
 import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
@@ -24,6 +23,7 @@ class SearchSettingsViewModel @Inject constructor(application: Application) :
     companion object {
         private val Context.dataStore: DataStore<Preferences> by preferencesDataStore("search_settings")
     }
+
     private object PreferencesKeys {
         val TYPE = stringPreferencesKey("type")
         val COUNTRY = stringPreferencesKey("country")
@@ -60,19 +60,21 @@ class SearchSettingsViewModel @Inject constructor(application: Application) :
         }
     }
 
-    val searchData: Flow<SearchData> =  getApplication<Application>().dataStore.data.map { preferences ->
-        SearchData(
-            type = preferences[PreferencesKeys.TYPE] ?: "ALL",
-            country = preferences[PreferencesKeys.COUNTRY]?: "Абхазия",
-            genre = preferences[PreferencesKeys.GENRE] ?: "триллер",
-            yearFrom = preferences[PreferencesKeys.YEAR_FROM] ?: 1900,
-            yearTo = preferences[PreferencesKeys.YEAR_TO] ?: Calendar.getInstance().get(Calendar.YEAR),
-            ratingFrom = preferences[PreferencesKeys.RATING_FROM] ?: 1.0,
-            ratingTo = preferences[PreferencesKeys.RATING_TO]?: 10.0,
-            order = preferences[PreferencesKeys.ORDER] ?: "YEAR",
-            watched = preferences[PreferencesKeys.WATCHED] ?: false
-        )
-    }
+    val searchData: Flow<SearchData> =
+        getApplication<Application>().dataStore.data.map { preferences ->
+            SearchData(
+                type = preferences[PreferencesKeys.TYPE] ?: "ALL",
+                country = preferences[PreferencesKeys.COUNTRY] ?: "Абхазия",
+                genre = preferences[PreferencesKeys.GENRE] ?: "триллер",
+                yearFrom = preferences[PreferencesKeys.YEAR_FROM] ?: 1900,
+                yearTo = preferences[PreferencesKeys.YEAR_TO] ?: Calendar.getInstance()
+                    .get(Calendar.YEAR),
+                ratingFrom = preferences[PreferencesKeys.RATING_FROM] ?: 1.0,
+                ratingTo = preferences[PreferencesKeys.RATING_TO] ?: 10.0,
+                order = preferences[PreferencesKeys.ORDER] ?: "YEAR",
+                watched = preferences[PreferencesKeys.WATCHED] ?: false
+            )
+        }
 
     data class SearchData(
         var type: String,

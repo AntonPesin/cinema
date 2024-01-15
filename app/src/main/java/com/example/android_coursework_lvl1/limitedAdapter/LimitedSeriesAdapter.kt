@@ -8,7 +8,7 @@ import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.databinding.MovieItemBinding
 import com.example.android_coursework_lvl1.models.MovieModel
 
-class LimitedSeriesAdapter: RecyclerView.Adapter<LimitedSeriesViewHolder>() {
+class LimitedSeriesAdapter : RecyclerView.Adapter<LimitedSeriesViewHolder>() {
 
     private var series: List<MovieModel> = emptyList()
     private var seriesClickListener: SeriesTestOnMovieClickListener? = null
@@ -64,4 +64,5 @@ class LimitedSeriesAdapter: RecyclerView.Adapter<LimitedSeriesViewHolder>() {
         fun onSeriesTestClick(movie: MovieModel?)
     }
 }
+
 class LimitedSeriesViewHolder(val binding: MovieItemBinding) : RecyclerView.ViewHolder(binding.root)

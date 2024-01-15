@@ -6,7 +6,6 @@ import com.example.android_coursework_lvl1.models.MovieGenres
 import com.google.firebase.crashlytics.buildtools.reloc.com.google.common.reflect.TypeToken
 import com.google.gson.Gson
 
-
 class Converters {
     @TypeConverter
     fun fromGenreString(value: String?): List<MovieGenres>? {

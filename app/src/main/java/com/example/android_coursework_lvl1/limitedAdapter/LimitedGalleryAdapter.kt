@@ -4,12 +4,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.android_coursework_lvl1.adapter.GalleryAdapter
-import com.example.android_coursework_lvl1.adapter.GalleryViewHolder
 import com.example.android_coursework_lvl1.databinding.ImageItemBinding
-import com.example.android_coursework_lvl1.databinding.MovieItemBinding
 import com.example.android_coursework_lvl1.models.ImageModel
-import com.example.android_coursework_lvl1.models.MovieModel
 
 class LimitedGalleryAdapter : RecyclerView.Adapter<LimitedGalleryViewHolder>() {
 
@@ -62,4 +58,5 @@ class LimitedGalleryAdapter : RecyclerView.Adapter<LimitedGalleryViewHolder>() {
 
 }
 
-class LimitedGalleryViewHolder(val binding: ImageItemBinding) : RecyclerView.ViewHolder(binding.root)
+class LimitedGalleryViewHolder(val binding: ImageItemBinding) :
+    RecyclerView.ViewHolder(binding.root)

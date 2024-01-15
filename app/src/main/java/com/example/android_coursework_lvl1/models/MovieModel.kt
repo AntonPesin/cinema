@@ -1,6 +1,5 @@
 package com.example.android_coursework_lvl1.models
 
-
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey

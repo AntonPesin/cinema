@@ -10,7 +10,6 @@ import androidx.fragment.app.DialogFragment
 import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.databinding.ImagedialogLayoutBinding
-
 class ImageDialogFragment : DialogFragment() {
 
     private var _binding: ImagedialogLayoutBinding? = null

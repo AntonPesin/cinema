@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
@@ -15,8 +14,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    </TextView>
+        app:layout_constraintTop_toTopOf="parent"></TextView>
 
     <NumberPicker
         android:id="@+id/yearPicker"
@@ -24,8 +22,7 @@
         android:layout_height="200dp"
         app:layout_constraintEnd_toEndOf="@+id/select_button"
         app:layout_constraintStart_toStartOf="@+id/cancel_button"
-        app:layout_constraintTop_toBottomOf="@+id/title">
-    </NumberPicker>
+        app:layout_constraintTop_toBottomOf="@+id/title"></NumberPicker>
 
     <Button
         android:id="@+id/cancel_button"
@@ -36,8 +33,7 @@
         android:layout_marginTop="26dp"
         android:text="@string/cancel"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/yearPicker">
-    </Button>
+        app:layout_constraintTop_toBottomOf="@+id/yearPicker"></Button>
 
     <Button
         android:id="@+id/select_button"
@@ -48,8 +44,7 @@
         android:layout_marginEnd="26dp"
         android:text="@string/select"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/yearPicker">
-    </Button>
+        app:layout_constraintTop_toBottomOf="@+id/yearPicker"></Button>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -31,7 +31,7 @@ class LoaderFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?,
-    ): View? {
+    ): View {
         binding = LoaderLayoutBinding.inflate(inflater, container, false)
 
 

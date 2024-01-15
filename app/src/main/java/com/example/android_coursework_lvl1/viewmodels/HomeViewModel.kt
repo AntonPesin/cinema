@@ -1,11 +1,11 @@
 package com.example.android_coursework_lvl1.viewmodels
 
-import com.example.android_coursework_lvl1.data.Repository
 import android.app.Application
 import android.os.Build
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.android_coursework_lvl1.data.Repository
 import com.example.android_coursework_lvl1.models.MovieModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -63,9 +63,12 @@ class HomeViewModel @Inject constructor(
                 _isLoading.value = true
                 val movies = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                     val twoWeeksAhead = LocalDate.now().plusDays(14)
-                    repository.getPremieres( twoWeeksAhead.year,twoWeeksAhead.month.name)
+                    repository.getPremieres(twoWeeksAhead.year, twoWeeksAhead.month.name)
                 } else {
-                    repository.getPremieres( calendar.get(Calendar.YEAR),calendar.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.getDefault()) )
+                    repository.getPremieres(
+                        calendar.get(Calendar.YEAR),
+                        calendar.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.getDefault())
+                    )
                 }
                 _premierMovies.value = movies
             } catch (error: Throwable) {
@@ -73,6 +76,7 @@ class HomeViewModel @Inject constructor(
             }
         }
     }
+
     private fun load250() {
         viewModelScope.launch {
             try {
@@ -84,6 +88,7 @@ class HomeViewModel @Inject constructor(
             }
         }
     }
+
     private fun loadPopular() {
         viewModelScope.launch {
             try {
@@ -95,40 +100,43 @@ class HomeViewModel @Inject constructor(
             }
         }
     }
+
     private fun loadFirstDynamicMovies() {
-            viewModelScope.launch {
-                try {
-                    _isLoading.value = true
-                    val movies = repository.getFirstDynamicMovies(
-                            1,
-                            5,
-                            10,
-                            1000,
-                            3000
-                        )
-                    _firstDynamicLimitedMovies.value = movies
-                } catch (error: Throwable) {
-                    Log.d("HomeViewModelFirstDynamic", error.message ?: "")
-                }
+        viewModelScope.launch {
+            try {
+                _isLoading.value = true
+                val movies = repository.getFirstDynamicMovies(
+                    1,
+                    5,
+                    10,
+                    1000,
+                    3000
+                )
+                _firstDynamicLimitedMovies.value = movies
+            } catch (error: Throwable) {
+                Log.d("HomeViewModelFirstDynamic", error.message ?: "")
             }
+        }
     }
+
     private fun loadSecondDynamicMovies() {
-            viewModelScope.launch {
-                try {
-                    _isLoading.value = true
-                    val movies = repository.getSecondDynamicMovies(
-                        1,
-                        5,
-                        10,
-                        1000,
-                        3000,
-                    )
-                    _secondDynamicLimitedMovies.value = movies
-                } catch (error: Throwable) {
-                    Log.d("HomeViewModelSecondDynamic", error.message ?: "")
-                }
+        viewModelScope.launch {
+            try {
+                _isLoading.value = true
+                val movies = repository.getSecondDynamicMovies(
+                    1,
+                    5,
+                    10,
+                    1000,
+                    3000,
+                )
+                _secondDynamicLimitedMovies.value = movies
+            } catch (error: Throwable) {
+                Log.d("HomeViewModelSecondDynamic", error.message ?: "")
             }
+        }
     }
+
     private fun loadSeries() {
         viewModelScope.launch {
             try {

@@ -24,7 +24,6 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-
 class Search : Fragment() {
     private var _binding: SearchLayoutBinding? = null
     private lateinit var navigationHandler: Navigation

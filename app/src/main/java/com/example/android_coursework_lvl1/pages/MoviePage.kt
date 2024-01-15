@@ -15,11 +15,11 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
-import com.example.android_coursework_lvl1.collection.CollectionDialog
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.adapter.ActorsAdapter
 import com.example.android_coursework_lvl1.adapter.SimilarAdapter
 import com.example.android_coursework_lvl1.adapter.StaffAdapter
+import com.example.android_coursework_lvl1.collection.CollectionDialog
 import com.example.android_coursework_lvl1.databinding.MovieLayoutBinding
 import com.example.android_coursework_lvl1.limitedAdapter.LimitedActorsAdapter
 import com.example.android_coursework_lvl1.limitedAdapter.LimitedGalleryAdapter
@@ -34,7 +34,9 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import retrofit2.HttpException
+
 private const val MAX_ELEMENTS = 250
+
 class MoviePage : Fragment() {
     private var _binding: MovieLayoutBinding? = null
     private val binding get() = _binding!!
@@ -145,7 +147,6 @@ class MoviePage : Fragment() {
         }
 
 
-
     }
 
 
@@ -185,11 +186,12 @@ class MoviePage : Fragment() {
     }
 
 
-
     private suspend fun movieData(id: Int?, movie: MovieModel) {
         val movieName = movie.nameRu ?: movie.nameEn ?: movie.nameOriginal
-        binding.genre.text = movie.genres?.firstOrNull()?.genre.takeIf { it != null }?.let { "$it, " } ?: ""
-        binding.country.text = movie.countries?.firstOrNull()?.country.takeIf { it != null }?.let { "$it, " } ?: ""
+        binding.genre.text =
+            movie.genres?.firstOrNull()?.genre.takeIf { it != null }?.let { "$it, " } ?: ""
+        binding.country.text =
+            movie.countries?.firstOrNull()?.country.takeIf { it != null }?.let { "$it, " } ?: ""
         binding.releaseYear.text = movie.year?.toString()?.let { "$it, " } ?: ""
         binding.length.text = movie.filmLength?.let { "$it мин, " } ?: ""
         binding.movieRating.text = movie.ratingKinopoisk?.let { "$it, " } ?: ""
@@ -324,11 +326,10 @@ class MoviePage : Fragment() {
             }
         }
 
-         binding.menu.setOnClickListener{
-             val collectionDialog = CollectionDialog.newInstance(movie)
-             collectionDialog.show(childFragmentManager, "CollectionDialog")
+        binding.menu.setOnClickListener {
+            val collectionDialog = CollectionDialog.newInstance(movie)
+            collectionDialog.show(childFragmentManager, "CollectionDialog")
         }
-
 
 
     }
@@ -469,6 +470,7 @@ class MoviePage : Fragment() {
         }
 
     }
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

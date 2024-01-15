@@ -1,8 +1,8 @@
 package com.example.android_coursework_lvl1.dataSource
 
-import com.example.android_coursework_lvl1.data.Repository
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
+import com.example.android_coursework_lvl1.data.Repository
 import com.example.android_coursework_lvl1.models.MovieModel
 
 class PopularDataSource(private val repository: Repository) :
@@ -28,6 +28,7 @@ class PopularDataSource(private val repository: Repository) :
             }, onFailure = { LoadResult.Error(it) }
         )
     }
+
     private companion object {
         private const val STARTING_PAGE_INDEX = 1
     }

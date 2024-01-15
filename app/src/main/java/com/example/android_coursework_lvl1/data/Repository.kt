@@ -11,9 +11,12 @@ import com.example.android_coursework_lvl1.models.SeasonsModel
 import com.example.android_coursework_lvl1.models.StaffModel
 import com.example.android_coursework_lvl1.retrofit.RetrofitKinopoisk
 
-private const val PREFERENCE_NAME = "PREFERENCE_NAME"
-
 class Repository(context: Context) {
+
+    companion object {
+        private const val PREFERENCE_NAME = "PREFERENCE_NAME"
+    }
+
     private val sharedPreferences: SharedPreferences =
         context.getSharedPreferences(PREFERENCE_NAME, Context.MODE_PRIVATE)
     private val firstCountry: String
@@ -234,9 +237,9 @@ class Repository(context: Context) {
 
     suspend fun searchKeywordApi(
         keywordFlow: String,
-        page: Int
+        page: Int,
     ): List<SearchMovieModel> {
-        return RetrofitKinopoisk.search.keywordSearchApi(keywordFlow,page).items
+        return RetrofitKinopoisk.search.keywordSearchApi(keywordFlow, page).items
     }
 
 }

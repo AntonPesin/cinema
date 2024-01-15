@@ -4,4 +4,4 @@ import androidx.room.Dao
 import com.example.android_coursework_lvl1.models.MovieModel
 
 @Dao
-interface WantSeeDao:BaseDao<MovieModel>
+interface WantSeeDao : BaseDao<MovieModel>

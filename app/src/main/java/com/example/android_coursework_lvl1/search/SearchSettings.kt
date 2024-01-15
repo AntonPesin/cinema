@@ -37,6 +37,7 @@ class SearchSettings : Fragment() {
         _binding = SearchSettingsBinding.inflate(inflater, container, false)
         return binding.root
     }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -63,17 +64,20 @@ class SearchSettings : Fragment() {
                 binding.genreSpinner.setSelection(getIndex(binding.genreSpinner, searchData.genre))
 
                 binding.yearFrom.setOnClickListener {
-                    showYearPickerDialog( searchData,"yearFrom")
+                    showYearPickerDialog(searchData, "yearFrom")
                 }
 
                 binding.yearTo.setOnClickListener {
-                    showYearPickerDialog( searchData,"yearTo")
+                    showYearPickerDialog(searchData, "yearTo")
                 }
 
                 binding.yearFrom.text = searchData.yearFrom.toString()
                 binding.yearTo.text = searchData.yearTo.toString()
 
-                binding.ratingSlider.setValues(searchData.ratingFrom.toFloat(), searchData.ratingTo.toFloat())
+                binding.ratingSlider.setValues(
+                    searchData.ratingFrom.toFloat(),
+                    searchData.ratingTo.toFloat()
+                )
 
                 updateOrderSelection(searchData.order)
                 if (searchData.watched) {
@@ -305,6 +309,7 @@ class SearchSettings : Fragment() {
             .setPositiveButton("OK") { dialog, _ -> dialog.dismiss() }
             .show()
     }
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null

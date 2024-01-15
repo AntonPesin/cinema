@@ -44,7 +44,6 @@ class FilmographyPage : Fragment() {
         val id = arguments?.getInt("id")
 
         //Почему-то у некоторых людей может быть два professionKeys herself and himself
-
         binding.filmographyRv.adapter = bestMoviesAdapter
 
         lifecycleScope.launch {

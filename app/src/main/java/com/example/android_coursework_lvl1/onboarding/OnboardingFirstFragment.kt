@@ -49,7 +49,8 @@ class OnboardingFirstFragment : Fragment() {
         }
 
     private fun updateIsFirstRun(isFirstRun: Boolean) {
-        val sharedPreferences = requireActivity().getSharedPreferences(PREFERENCE_NAME, Context.MODE_PRIVATE)
+        val sharedPreferences =
+            requireActivity().getSharedPreferences(PREFERENCE_NAME, Context.MODE_PRIVATE)
         sharedPreferences.edit().putBoolean("is_first_run", isFirstRun).apply()
     }
 

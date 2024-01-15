@@ -1,6 +1,5 @@
 package com.example.android_coursework_lvl1.pages
 
-import com.example.android_coursework_lvl1.data.Repository
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,10 +9,11 @@ import android.widget.ArrayAdapter
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.example.android_coursework_lvl1.navigation.Navigation
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.adapter.SeasonsAdapter
+import com.example.android_coursework_lvl1.data.Repository
 import com.example.android_coursework_lvl1.databinding.SeasonsLayoutBinding
+import com.example.android_coursework_lvl1.navigation.Navigation
 import kotlinx.coroutines.launch
 
 class SeasonsPage : Fragment() {
@@ -57,14 +57,23 @@ class SeasonsPage : Fragment() {
             val serialID = repository.getSeasons(id)
             val total = repository.totalSeasons(id)
             val spinner = binding.spinner
-            spinner.adapter = ArrayAdapter(requireContext(),android.R.layout.simple_spinner_item,(1..total).toList())
+            spinner.adapter = ArrayAdapter(
+                requireContext(),
+                android.R.layout.simple_spinner_item,
+                (1..total).toList()
+            )
             binding.serialName.text = serialName
             binding.seasonNumber.text = "$total сезонов"
             seasonsAdapter.setData(serialID)
             binding.seasonsRv.adapter = seasonsAdapter
 
             binding.spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-                override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                override fun onItemSelected(
+                    parent: AdapterView<*>?,
+                    view: View?,
+                    position: Int,
+                    id: Long,
+                ) {
                     selectedSeason = position
                     seasonsAdapter.setSelectedSeason(selectedSeason)
                 }

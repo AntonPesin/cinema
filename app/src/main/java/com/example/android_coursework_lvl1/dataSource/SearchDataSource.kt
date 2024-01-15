@@ -10,8 +10,9 @@ import kotlinx.coroutines.flow.StateFlow
 class SearchDataSource(
     private val repository: Repository,
     private var keyword: String,
-    private var hideWatched:StateFlow<Boolean>,
-    private var seenMovies:StateFlow<List<MovieModel>>) :
+    private var hideWatched: StateFlow<Boolean>,
+    private var seenMovies: StateFlow<List<MovieModel>>,
+) :
     PagingSource<Int, SearchMovieModel>() {
     private val loadedItems = mutableSetOf<Int>()
 

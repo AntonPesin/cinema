@@ -7,7 +7,6 @@ import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.adapter.StaffViewHolder
 import com.example.android_coursework_lvl1.databinding.StaffItemBinding
 import com.example.android_coursework_lvl1.models.StaffModel
-
 open class LimitedStaffAdapter : RecyclerView.Adapter<StaffViewHolder>() {
 
     private var limitedStaffList: List<StaffModel> = emptyList()

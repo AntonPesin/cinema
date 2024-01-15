@@ -1,6 +1,5 @@
 package com.example.android_coursework_lvl1.viewmodels
 
-import com.example.android_coursework_lvl1.data.Repository
 import android.app.Application
 import android.os.Build
 import android.util.Log
@@ -10,6 +9,7 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
+import com.example.android_coursework_lvl1.data.Repository
 import com.example.android_coursework_lvl1.dataSource.FirstDynamicDataSource
 import com.example.android_coursework_lvl1.dataSource.PopularDataSource
 import com.example.android_coursework_lvl1.dataSource.SecondDynamicDataSource
@@ -35,7 +35,8 @@ class AllMoviesModel @Inject constructor(
     private val popularDataSource: PopularDataSource = PopularDataSource(repository)
     private val top250DataSource: Top250DataSource = Top250DataSource(repository)
     private val firstDynamicDataSource: FirstDynamicDataSource = FirstDynamicDataSource(repository)
-    private val secondDynamicDataSource: SecondDynamicDataSource = SecondDynamicDataSource(repository)
+    private val secondDynamicDataSource: SecondDynamicDataSource =
+        SecondDynamicDataSource(repository)
     private val seriesDataSource: SeriesDataSource = SeriesDataSource(repository)
     private val _premierMovies = MutableStateFlow<List<MovieModel>>(emptyList())
     val premierMovies = _premierMovies.asStateFlow()
@@ -43,6 +44,7 @@ class AllMoviesModel @Inject constructor(
     init {
         loadPremieres()
     }
+
     val pagedPopularMovies: Flow<PagingData<MovieModel>> = Pager(
         config = PagingConfig(pageSize = 20),
         pagingSourceFactory = { popularDataSource }
@@ -73,9 +75,15 @@ class AllMoviesModel @Inject constructor(
         viewModelScope.launch {
             try {
                 val movies = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                    repository.getPremieres( LocalDate.now().year,LocalDate.now().plusDays(14).month.name)
+                    repository.getPremieres(
+                        LocalDate.now().year,
+                        LocalDate.now().plusDays(14).month.name
+                    )
                 } else {
-                    repository.getPremieres( calendar.get(Calendar.YEAR),calendar.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.getDefault()) )
+                    repository.getPremieres(
+                        calendar.get(Calendar.YEAR),
+                        calendar.getDisplayName(Calendar.MONTH, Calendar.LONG, Locale.getDefault())
+                    )
                 }
                 _premierMovies.value = movies
             } catch (error: Throwable) {

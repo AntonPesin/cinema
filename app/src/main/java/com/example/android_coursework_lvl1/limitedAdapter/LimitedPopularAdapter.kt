@@ -64,4 +64,6 @@ class LimitedPopularAdapter : RecyclerView.Adapter<LimitedPopularViewHolder>() {
         fun onMovieClick(movie: MovieModel?)
     }
 }
-class LimitedPopularViewHolder(val binding: MovieItemBinding) : RecyclerView.ViewHolder(binding.root)
+
+class LimitedPopularViewHolder(val binding: MovieItemBinding) :
+    RecyclerView.ViewHolder(binding.root)

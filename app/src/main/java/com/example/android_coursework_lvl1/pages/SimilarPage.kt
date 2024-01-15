@@ -1,6 +1,5 @@
 package com.example.android_coursework_lvl1.pages
 
-import com.example.android_coursework_lvl1.data.Repository
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,11 +7,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.example.android_coursework_lvl1.navigation.Navigation
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.adapter.SimilarAdapter
+import com.example.android_coursework_lvl1.data.Repository
 import com.example.android_coursework_lvl1.databinding.SimilarLayoutBinding
 import com.example.android_coursework_lvl1.models.MovieModel
+import com.example.android_coursework_lvl1.navigation.Navigation
 import kotlinx.coroutines.launch
 
 class SimilarPage : Fragment() {
@@ -30,6 +30,7 @@ class SimilarPage : Fragment() {
         _binding = SimilarLayoutBinding.inflate(inflater, container, false)
         return binding.root
     }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         navigationHandler = Navigation(findNavController())
@@ -48,7 +49,7 @@ class SimilarPage : Fragment() {
 
         similarAdapter.setOnMovieClickListener(object : SimilarAdapter.OnMovieClickListener {
             override fun onMovieClick(movie: MovieModel?) {
-                    navigationHandler.navigateSimilarToMovie(movie?.filmId)
+                navigationHandler.navigateSimilarToMovie(movie?.filmId)
             }
         })
 

@@ -1,6 +1,5 @@
 package com.example.android_coursework_lvl1.pages
 
-import com.example.android_coursework_lvl1.data.Repository
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,11 +8,12 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.example.android_coursework_lvl1.navigation.Navigation
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.adapter.GalleryAdapter
+import com.example.android_coursework_lvl1.data.Repository
 import com.example.android_coursework_lvl1.databinding.GalleryLayoutBinding
 import com.example.android_coursework_lvl1.models.ImageModel
+import com.example.android_coursework_lvl1.navigation.Navigation
 import com.example.android_coursework_lvl1.viewmodels.GalleryViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

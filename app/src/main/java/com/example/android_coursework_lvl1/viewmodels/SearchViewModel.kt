@@ -47,7 +47,6 @@ class SearchViewModel @Inject constructor(
             ).flow.cachedIn(viewModelScope)
         }
     }
-
     fun getSeenMovies() {
         viewModelScope.launch {
             _seenMovies.value = withContext(Dispatchers.IO) {

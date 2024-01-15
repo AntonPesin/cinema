@@ -126,7 +126,7 @@ interface KinopoiskApiService {
     @Headers("X-API-KEY: $API_KEY")
     @GET("/api/v1/staff/{id}")
     suspend fun getActor(
-        @Path("id") id: Int?
+        @Path("id") id: Int?,
     ): ActorModel
 
 
@@ -135,7 +135,7 @@ interface KinopoiskApiService {
     @GET("/api/v2.2/films/{id}/images?type=STILL")
     suspend fun getStillImage(
         @Path("id") id: Int?,
-        @Query("page") page: Int
+        @Query("page") page: Int,
     ): ImageList
 
     //Get shooting image
@@ -143,7 +143,7 @@ interface KinopoiskApiService {
     @GET("/api/v2.2/films/{id}/images?type=SHOOTING")
     suspend fun getShootingImage(
         @Path("id") id: Int?,
-        @Query("page") page: Int
+        @Query("page") page: Int,
     ): ImageList
 
     //Get poster image
@@ -151,26 +151,29 @@ interface KinopoiskApiService {
     @GET("/api/v2.2/films/{id}/images?type=POSTER")
     suspend fun getPosterImage(
         @Path("id") id: Int?,
-        @Query("page") page: Int
+        @Query("page") page: Int,
     ): ImageList
 
     //Get totalstill image
     @Headers("X-API-KEY: $API_KEY")
     @GET("/api/v2.2/films/{id}/images?type=STILL&page=1")
     suspend fun getTotalStillImage(
-        @Path("id") id: Int?): ImageList
+        @Path("id") id: Int?,
+    ): ImageList
 
     //Get totalshooting image
     @Headers("X-API-KEY: $API_KEY")
     @GET("/api/v2.2/films/{id}/images?type=SHOOTING&page=1")
     suspend fun getTotalShootingImage(
-        @Path("id") id: Int?): ImageList
+        @Path("id") id: Int?,
+    ): ImageList
 
     //Get totalposter image
     @Headers("X-API-KEY: $API_KEY")
     @GET("/api/v2.2/films/{id}/images?type=POSTER&page=1")
     suspend fun getTotalPosterImage(
-        @Path("id") id: Int?): ImageList
+        @Path("id") id: Int?,
+    ): ImageList
 
     //Get similars
     @Headers("X-API-KEY: $API_KEY")
@@ -180,28 +183,30 @@ interface KinopoiskApiService {
     //com.example.android_coursework_lvl1.NavigationPages.Search
     @Headers("X-API-KEY: $API_KEY")
     @GET("/api/v2.2/films")
-    suspend fun customSearchApi(@Query("countries") countries: Int?,
-                       @Query("genres") genres: Int?,
-                       @Query("order") order: String?,
-                       @Query("type") type: String?,
-                       @Query("ratingFrom") ratingFrom: Double?,
-                       @Query("ratingTo") ratingTo: Double?,
-                       @Query("yearFrom") yearFrom: Int?,
-                       @Query("yearTo") yearTo: Int?,
-                       @Query("keyword") keyword: String?,
+    suspend fun customSearchApi(
+        @Query("countries") countries: Int?,
+        @Query("genres") genres: Int?,
+        @Query("order") order: String?,
+        @Query("type") type: String?,
+        @Query("ratingFrom") ratingFrom: Double?,
+        @Query("ratingTo") ratingTo: Double?,
+        @Query("yearFrom") yearFrom: Int?,
+        @Query("yearTo") yearTo: Int?,
+        @Query("keyword") keyword: String?,
     ): SearchMovieList
 
     //DefaultSearch
     @Headers("X-API-KEY: $API_KEY")
     @GET("/api/v2.2/films")
-    suspend fun keywordSearchApi(@Query("keyword") keyword: String?,
-                                 @Query("page") page: Int
+    suspend fun keywordSearchApi(
+        @Query("keyword") keyword: String?,
+        @Query("page") page: Int,
     ): SearchMovieList
 
 
     //67ed8b98-11a6-41b4-ae18-a6d55865c27f darfow74@gmail.com
     //74d1542b-a48d-4738-82a3-83feacf5f065 antopesin
     private companion object {
-                const val API_KEY = "74d1542b-a48d-4738-82a3-83feacf5f065"
+        const val API_KEY = "74d1542b-a48d-4738-82a3-83feacf5f065"
     }
 }

@@ -15,6 +15,7 @@ import com.example.android_coursework_lvl1.databinding.ActivityMainBinding
 import com.example.android_coursework_lvl1.viewmodels.SearchSettingsViewModel
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 
 class MainActivity : AppCompatActivity() {
@@ -30,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         searchSettingsViewModel = ViewModelProvider(this)[SearchSettingsViewModel::class.java]
         sharedPreferences = getSharedPreferences(PREFERENCE_NAME, Context.MODE_PRIVATE)
 
-        lifecycleScope.launch {
+        runBlocking {
             val isFirstRun = readIsFirstRunFromDataStore()
             if (isFirstRun) {
                 val navController = findNavController(R.id.nav_host_fragment)
@@ -40,7 +41,6 @@ class MainActivity : AppCompatActivity() {
                 val navController = findNavController(R.id.nav_host_fragment)
                 navController.navigate(R.id.loader)
             }
-
 
             searchSettingsViewModel.clearDataStore()
         }

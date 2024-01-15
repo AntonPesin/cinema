@@ -8,7 +8,6 @@ import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.databinding.MovieItemBinding
 import com.example.android_coursework_lvl1.models.Films
-
 class BestMoviesAdapter: RecyclerView.Adapter<BestFilmsViewHolder>() {
 
     private var bestFilmsList: List<Films> = emptyList()

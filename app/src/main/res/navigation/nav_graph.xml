@@ -44,6 +44,7 @@
             android:id="@+id/action_homepage_to_allMovies"
             app:destination="@id/allMovies">
             <argument
+
                 android:name="category"
                 app:argType="string" />
         </action>

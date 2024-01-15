@@ -8,7 +8,7 @@ import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.databinding.MovieItemBinding
 import com.example.android_coursework_lvl1.models.MovieModel
 
-class LimitedTop250Adapter: RecyclerView.Adapter<LimitedTop250ViewHolder>() {
+class LimitedTop250Adapter : RecyclerView.Adapter<LimitedTop250ViewHolder>() {
 
     private var movies: List<MovieModel> = emptyList()
     private var movieClickListener: OnMovieClickListener? = null
@@ -64,4 +64,5 @@ class LimitedTop250Adapter: RecyclerView.Adapter<LimitedTop250ViewHolder>() {
         fun onMovieClick(movie: MovieModel?)
     }
 }
+
 class LimitedTop250ViewHolder(val binding: MovieItemBinding) : RecyclerView.ViewHolder(binding.root)

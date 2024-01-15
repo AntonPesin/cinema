@@ -16,7 +16,6 @@ import com.example.android_coursework_lvl1.adapter.StaffAdapter
 import com.example.android_coursework_lvl1.databinding.AllActorsLayoutBinding
 import com.example.android_coursework_lvl1.models.StaffModel
 import kotlinx.coroutines.launch
-
 class AllStaff : Fragment() {
 
     private var _binding: AllActorsLayoutBinding? = null

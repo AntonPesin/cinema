@@ -23,7 +23,7 @@ class LimitedFirstDynamicAdapter : RecyclerView.Adapter<LimitedFirstDynamicViewH
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
-        viewType: Int
+        viewType: Int,
     ): LimitedFirstDynamicViewHolder {
         return LimitedFirstDynamicViewHolder(
             MovieItemBinding.inflate(

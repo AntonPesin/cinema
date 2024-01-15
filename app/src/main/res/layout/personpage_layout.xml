@@ -10,11 +10,11 @@
         android:layout_width="20dp"
         android:layout_height="25dp"
         android:layout_above="@+id/photo"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/back_icon"
         android:clickable="true"
         android:focusable="true"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -193,10 +193,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
         android:layout_marginTop="10dp"
+        android:text="@string/best"
         android:textAppearance="@style/main_style"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/photo"
-        android:text="@string/best">
+        app:layout_constraintTop_toBottomOf="@+id/photo">
 
     </TextView>
 
@@ -205,13 +205,12 @@
         android:id="@+id/best_rv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginTop="10dp"
+        android:orientation="horizontal"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/best_textview">
-    </androidx.recyclerview.widget.RecyclerView>
+        app:layout_constraintTop_toBottomOf="@+id/best_textview"></androidx.recyclerview.widget.RecyclerView>
 
 
     <TextView
@@ -219,8 +218,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
-        android:text="@string/filmography"
         android:layout_marginBottom="30dp"
+        android:text="@string/filmography"
         android:textAppearance="@style/main_style"
         app:layout_constraintBottom_toTopOf="@+id/navigation"
         app:layout_constraintStart_toStartOf="parent">
@@ -243,12 +242,12 @@
         android:id="@+id/to_filmography_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/filmography_title"
+        android:text="@string/to_filmography"
         android:textAppearance="@style/all_button_style"
+        app:layout_constraintBottom_toBottomOf="@+id/filmography_title"
         app:layout_constraintEnd_toStartOf="@+id/to_filmography_imageview"
         app:layout_constraintTop_toTopOf="@+id/filmography_title"
-        app:layout_constraintVertical_bias="0.0"
-        android:text="@string/to_filmography">
+        app:layout_constraintVertical_bias="0.0">
 
     </TextView>
 
@@ -265,6 +264,7 @@
         app:layout_constraintTop_toTopOf="@+id/filmography_title">
 
     </ImageView>
+
     <com.example.android_coursework_lvl1.customviews.CustomNavigationView
         android:id="@+id/navigation"
         android:layout_width="match_parent"

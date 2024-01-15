@@ -45,8 +45,7 @@
                     android:layout_height="400dp"
                     android:layout_marginStart="66dp"
                     android:layout_marginEnd="66dp"
-                    android:foregroundGravity="center_horizontal">
-                </ImageView>
+                    android:foregroundGravity="center_horizontal"></ImageView>
 
 
                 <FrameLayout
@@ -282,11 +281,11 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:focusable="true"
                             android:clickable="true"
-                            android:visibility="gone"
+                            android:focusable="true"
                             android:text="@string/serial_info_seasons"
-                            android:textAppearance="@style/additional_style" />
+                            android:textAppearance="@style/additional_style"
+                            android:visibility="gone" />
 
                         <TextView
                             android:id="@+id/seasons_info"
@@ -361,8 +360,8 @@
                             android:id="@+id/staff_container"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:visibility="gone"
-                            android:layout_marginTop="20dp">
+                            android:layout_marginTop="20dp"
+                            android:visibility="gone">
 
                             <androidx.constraintlayout.widget.ConstraintLayout
                                 android:id="@+id/staff_constraint"
@@ -427,8 +426,8 @@
                             android:id="@+id/gallery_container"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:visibility="gone"
-                            android:layout_marginTop="20dp">
+                            android:layout_marginTop="20dp"
+                            android:visibility="gone">
 
                             <androidx.constraintlayout.widget.ConstraintLayout
                                 android:id="@+id/gallery_constraint"
@@ -492,8 +491,8 @@
                             android:id="@+id/similar_container"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:visibility="gone"
-                            android:layout_marginTop="20dp">
+                            android:layout_marginTop="20dp"
+                            android:visibility="gone">
 
                             <androidx.constraintlayout.widget.ConstraintLayout
                                 android:id="@+id/similar_constraint"

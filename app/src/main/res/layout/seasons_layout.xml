@@ -16,6 +16,7 @@
         app:layout_constraintVertical_bias="1.0"
         app:layout_constraintVertical_chainStyle="packed">
 
+
         <FrameLayout
             android:id="@+id/season_frame"
             android:layout_width="match_parent"

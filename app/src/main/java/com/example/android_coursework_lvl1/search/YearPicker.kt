@@ -25,10 +25,11 @@ class YearPickerDialog : DialogFragment() {
             return fragment
         }
     }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?
+        savedInstanceState: Bundle?,
     ): View {
         _binding = YearpickerBinding.inflate(inflater, container, false)
         return binding.root

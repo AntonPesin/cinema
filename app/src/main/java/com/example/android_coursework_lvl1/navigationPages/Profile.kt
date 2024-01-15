@@ -27,7 +27,6 @@ import com.example.android_coursework_lvl1.viewmodels.ProfileViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-
 class Profile : Fragment() {
     private var _binding: ProfileLayoutBinding? = null
     private val binding get() = _binding!!

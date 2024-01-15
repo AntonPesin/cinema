@@ -23,7 +23,6 @@ class MovieViewModel @Inject constructor(
     application: Application,
     savedStateHandle: SavedStateHandle,
 ) : AndroidViewModel(application) {
-
     private val repository = Repository(application.applicationContext)
 
     private val _idState = MutableStateFlow(savedStateHandle["id"] ?: 0)

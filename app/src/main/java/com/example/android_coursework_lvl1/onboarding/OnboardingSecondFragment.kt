@@ -9,16 +9,16 @@ import androidx.navigation.fragment.findNavController
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.databinding.OnboardingSecondLayoutBinding
 
-class OnboardingSecondFragment: Fragment() {
+class OnboardingSecondFragment : Fragment() {
 
-    private lateinit var binding : OnboardingSecondLayoutBinding
+    private lateinit var binding: OnboardingSecondLayoutBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?
+        savedInstanceState: Bundle?,
     ): View {
-        binding = OnboardingSecondLayoutBinding.inflate(inflater,container,false)
+        binding = OnboardingSecondLayoutBinding.inflate(inflater, container, false)
         return binding.root
     }
 

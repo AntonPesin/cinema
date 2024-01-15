@@ -11,9 +11,6 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android_coursework_lvl1.R
 
-
-const val CATEGORY_KEY = "category"
-
 class CustomView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
@@ -60,6 +57,10 @@ class CustomView @JvmOverloads constructor(
             bundle.putString(CATEGORY_KEY, categoryName)
             findNavController().navigate(R.id.action_homepage_to_allMovies, bundle)
         }
+    }
+
+    companion object {
+        const val CATEGORY_KEY = "category"
     }
 
 }

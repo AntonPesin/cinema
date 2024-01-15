@@ -4,7 +4,6 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.example.android_coursework_lvl1.models.MovieModel
-
 interface BaseDao<T> {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(entity: T)

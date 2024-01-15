@@ -15,7 +15,6 @@ import com.example.android_coursework_lvl1.db.WantSeeDataBase
 
 
 class App : Application() {
-
     companion object {
         lateinit var INSTANCE: App
         private const val FIRST_RUN_DATASTORE = "FIRST_RUN_DATASTORE"

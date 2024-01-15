@@ -18,7 +18,6 @@ import com.example.android_coursework_lvl1.models.MovieModel
 import com.example.android_coursework_lvl1.viewmodels.AllMoviesModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
-
 class AllMovies : Fragment() {
 
     private var _binding: AllMoviesLayoutBinding? = null

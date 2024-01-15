@@ -29,7 +29,6 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
-
 class Home : Fragment() {
     private var _binding: HomepageLayoutBinding? = null
     private val binding get() = _binding!!

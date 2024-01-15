@@ -9,16 +9,16 @@ import androidx.navigation.fragment.findNavController
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.databinding.OnboardingThirdLayoutBinding
 
-class OnboardingThirdFragment: Fragment() {
+class OnboardingThirdFragment : Fragment() {
 
-    private lateinit var binding : OnboardingThirdLayoutBinding
+    private lateinit var binding: OnboardingThirdLayoutBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View{
-        binding = OnboardingThirdLayoutBinding.inflate(inflater,container,false)
+        savedInstanceState: Bundle?,
+    ): View {
+        binding = OnboardingThirdLayoutBinding.inflate(inflater, container, false)
         return binding.root
     }
 

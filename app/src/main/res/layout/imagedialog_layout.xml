@@ -9,6 +9,5 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop">
 
-
     </ImageView>
 </androidx.constraintlayout.widget.ConstraintLayout>

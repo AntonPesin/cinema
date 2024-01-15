@@ -10,13 +10,13 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
-import com.example.android_coursework_lvl1.navigation.Navigation
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.adapter.BestMoviesAdapter
 import com.example.android_coursework_lvl1.additionalPages.ImageDialogFragment
 import com.example.android_coursework_lvl1.databinding.PersonpageLayoutBinding
 import com.example.android_coursework_lvl1.models.ActorModel
 import com.example.android_coursework_lvl1.models.Films
+import com.example.android_coursework_lvl1.navigation.Navigation
 import com.example.android_coursework_lvl1.viewmodels.ActorViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
@@ -95,7 +95,7 @@ class PersonPage : Fragment() {
                     .into(binding.photo)
 
                 binding.photo.setOnClickListener {
-                    Log.d("posterUrl","${data.posterUrl}")
+                    Log.d("posterUrl", "${data.posterUrl}")
                     val dialogFragment = ImageDialogFragment.newInstance(data.posterUrl)
                     dialogFragment.show(supportFragmentManager, "image_dialog")
                 }

@@ -7,6 +7,7 @@ plugins {
     id 'com.google.dagger.hilt.android'
 }
 
+
 android {
     namespace 'com.example.android_coursework_lvl1'
     compileSdk 34

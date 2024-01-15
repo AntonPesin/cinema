@@ -19,7 +19,6 @@
                 android:layout_width="111dp"
                 android:layout_height="156dp"
                 android:clipToOutline="true" />
-
         </FrameLayout>
 
         <TextView

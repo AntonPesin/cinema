@@ -18,7 +18,6 @@ import com.example.android_coursework_lvl1.viewmodels.ProfileViewModel
 import com.google.gson.Gson
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-
 class CollectionDialog : DialogFragment() {
     private var _binding: CollectionsDialogBinding? = null
     private val binding get() = _binding!!

@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android_coursework_lvl1.databinding.SeasonItemBinding
 import com.example.android_coursework_lvl1.models.SeasonsModel
-
 class SeasonsAdapter : RecyclerView.Adapter<SeasonsViewHolder>() {
 
     private var seasonsList: List<SeasonsModel> = emptyList()

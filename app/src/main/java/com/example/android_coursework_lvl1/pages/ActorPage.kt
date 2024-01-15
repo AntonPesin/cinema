@@ -21,7 +21,7 @@ class ActorPage : Fragment() {
 
     private var _binding: PersonpageLayoutBinding? = null
     private val binding get() = _binding!!
-    private lateinit var actorsAdapter:ActorsAdapter
+    private lateinit var actorsAdapter: ActorsAdapter
     private lateinit var navigationHandler: Navigation
 
     override fun onCreateView(

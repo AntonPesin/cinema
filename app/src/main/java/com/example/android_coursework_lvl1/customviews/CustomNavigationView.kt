@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.widget.RelativeLayout
 import androidx.navigation.NavController
 import com.example.android_coursework_lvl1.databinding.CustomNavigationViewBinding
-
 class CustomNavigationView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,

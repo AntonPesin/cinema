@@ -8,7 +8,6 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import com.example.android_coursework_lvl1.R
-
 class CustomCollection@JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
