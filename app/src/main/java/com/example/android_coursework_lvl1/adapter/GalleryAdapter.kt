@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.databinding.ImageItemBinding
 import com.example.android_coursework_lvl1.models.ImageModel
+
 class GalleryAdapter : PagingDataAdapter<ImageModel, GalleryViewHolder>(GalleryDiffUtilCallback()) {
 
     private var imageListener: ImageClickListener? = null
@@ -15,6 +16,7 @@ class GalleryAdapter : PagingDataAdapter<ImageModel, GalleryViewHolder>(GalleryD
     fun setOnImageClickListener(listener: ImageClickListener) {
         imageListener = listener
     }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GalleryViewHolder {
         return GalleryViewHolder(
             ImageItemBinding.inflate(

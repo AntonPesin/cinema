@@ -36,7 +36,6 @@ class Home : Fragment() {
     private lateinit var repository: Repository
     private lateinit var navigationHandler: Navigation
 
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

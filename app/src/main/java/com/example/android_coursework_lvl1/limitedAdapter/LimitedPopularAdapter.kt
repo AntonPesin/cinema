@@ -21,7 +21,6 @@ class LimitedPopularAdapter : RecyclerView.Adapter<LimitedPopularViewHolder>() {
         notifyDataSetChanged()
     }
 
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LimitedPopularViewHolder {
         return LimitedPopularViewHolder(
             MovieItemBinding.inflate(

@@ -21,7 +21,6 @@ class LimitedTop250Adapter : RecyclerView.Adapter<LimitedTop250ViewHolder>() {
         notifyDataSetChanged()
     }
 
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LimitedTop250ViewHolder {
         return LimitedTop250ViewHolder(
             MovieItemBinding.inflate(

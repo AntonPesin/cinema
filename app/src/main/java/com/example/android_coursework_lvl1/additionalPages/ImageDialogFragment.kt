@@ -10,6 +10,7 @@ import androidx.fragment.app.DialogFragment
 import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.databinding.ImagedialogLayoutBinding
+
 class ImageDialogFragment : DialogFragment() {
 
     private var _binding: ImagedialogLayoutBinding? = null
@@ -17,13 +18,17 @@ class ImageDialogFragment : DialogFragment() {
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val dialog = Dialog(requireContext(), R.style.FullScreenDialog)
-        dialog.window?.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
+        dialog.window?.setFlags(
+            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN
+        )
         return dialog
     }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
-        savedInstanceState: Bundle?
+        savedInstanceState: Bundle?,
     ): View {
         _binding = ImagedialogLayoutBinding.inflate(inflater, container, false)
         return binding.root
@@ -51,9 +56,6 @@ class ImageDialogFragment : DialogFragment() {
             return fragment
         }
     }
-
-
-
 
 
 }

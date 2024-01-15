@@ -9,7 +9,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.databinding.MovieItemBinding
 import com.example.android_coursework_lvl1.models.SearchMovieModel
-class SearchAdapter : PagingDataAdapter<SearchMovieModel, SearchViewHolder>(SearchDiffUtilCallback()) {
+
+class SearchAdapter :
+    PagingDataAdapter<SearchMovieModel, SearchViewHolder>(SearchDiffUtilCallback()) {
 
     private var movieClickListener: OnMovieClickListener? = null
 
@@ -49,8 +51,8 @@ class SearchAdapter : PagingDataAdapter<SearchMovieModel, SearchViewHolder>(Sear
                     .into(poster)
             }
 
-            }
         }
+    }
 
 
     interface OnMovieClickListener {
@@ -62,8 +64,10 @@ class SearchAdapter : PagingDataAdapter<SearchMovieModel, SearchViewHolder>(Sear
 class SearchViewHolder(val binding: MovieItemBinding) : RecyclerView.ViewHolder(binding.root)
 
 class SearchDiffUtilCallback : DiffUtil.ItemCallback<SearchMovieModel>() {
-    override fun areItemsTheSame(oldItem: SearchMovieModel, newItem: SearchMovieModel): Boolean = oldItem.kinopoiskId == newItem.kinopoiskId
+    override fun areItemsTheSame(oldItem: SearchMovieModel, newItem: SearchMovieModel): Boolean =
+        oldItem.kinopoiskId == newItem.kinopoiskId
 
-    override fun areContentsTheSame(oldItem: SearchMovieModel, newItem: SearchMovieModel): Boolean = oldItem == newItem
+    override fun areContentsTheSame(oldItem: SearchMovieModel, newItem: SearchMovieModel): Boolean =
+        oldItem == newItem
 
 }

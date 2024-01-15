@@ -5,6 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.TypeConverters
 import com.example.android_coursework_lvl1.additionalPages.Converters
+
 @Entity(tableName = "movies")
 @TypeConverters(Converters::class)
 data class MovieModel(

@@ -19,6 +19,7 @@ data class SearchMovieGenres(
     val genre: String,
 )
 
+
 data class SearchMovieCountry(
     val country: String,
 )

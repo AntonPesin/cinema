@@ -5,3 +5,4 @@ class SeasonsList (
     val total: Int,
     val items: List<SeasonsModel>,
 )
+

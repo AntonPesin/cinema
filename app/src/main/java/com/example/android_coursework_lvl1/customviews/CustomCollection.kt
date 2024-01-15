@@ -8,15 +8,17 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import com.example.android_coursework_lvl1.R
-class CustomCollection@JvmOverloads constructor(
+
+class CustomCollection @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0,
-) : LinearLayout(context, attrs, defStyleAttr)  {
+) : LinearLayout(context, attrs, defStyleAttr) {
 
-    private var image:ImageView
+    private var image: ImageView
     private var deleteIcon: ImageView
-    private var collectionName : TextView
+    private var collectionName: TextView
+
     init {
         LayoutInflater.from(context).inflate(R.layout.custom_collection_item, this, true)
 
@@ -25,6 +27,7 @@ class CustomCollection@JvmOverloads constructor(
         image = findViewById(R.id.custom_collection_image)
         setupListeners()
     }
+
     private fun setupListeners() {
         deleteIcon.setOnClickListener {
             visibility = View.GONE

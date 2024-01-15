@@ -16,6 +16,7 @@ import com.example.android_coursework_lvl1.navigation.Navigation
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+
 class Collection : Fragment() {
 
     private var _binding: CollectionLayoutBinding? = null

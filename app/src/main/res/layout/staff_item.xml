@@ -20,10 +20,10 @@
         android:id="@+id/staff_name"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:maxLines="3"
         android:layout_alignTop="@+id/staff_poster"
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@id/staff_poster"
+        android:maxLines="3"
         tools:text="Ivan Ivanov">
 
     </TextView>
@@ -32,10 +32,10 @@
         android:id="@+id/staff_description"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:maxLines="3"
         android:layout_below="@+id/staff_name"
         android:layout_alignStart="@+id/staff_name"
         android:layout_marginTop="5dp"
+        android:maxLines="3"
         tools:text="Description">
 
     </TextView>

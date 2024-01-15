@@ -29,7 +29,6 @@ class App : Application() {
     private val Context.dataStore by preferencesDataStore(name = FIRST_RUN_DATASTORE)
 
 
-
     lateinit var favoriteDataBase: FavoriteDataBase
     lateinit var wantSeeDataBase: WantSeeDataBase
     lateinit var seenDataBase: SeenDataBase

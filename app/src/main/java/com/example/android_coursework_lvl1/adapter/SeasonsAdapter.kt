@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.android_coursework_lvl1.databinding.SeasonItemBinding
 import com.example.android_coursework_lvl1.models.SeasonsModel
+
 class SeasonsAdapter : RecyclerView.Adapter<SeasonsViewHolder>() {
 
     private var seasonsList: List<SeasonsModel> = emptyList()
@@ -37,9 +38,11 @@ class SeasonsAdapter : RecyclerView.Adapter<SeasonsViewHolder>() {
             val episode = episodes[position]
             with(holder.binding) {
                 if (episode.nameRu == null) {
-                    episodeNumber.text = ("${episode.episodeNumber.toString()} серия. ${episode.nameEn}")
+                    episodeNumber.text =
+                        ("${episode.episodeNumber.toString()} серия. ${episode.nameEn}")
                 } else {
-                    episodeNumber.text = ("${episode.episodeNumber.toString()} серия. ${episode.nameRu}")
+                    episodeNumber.text =
+                        ("${episode.episodeNumber.toString()} серия. ${episode.nameRu}")
                 }
                 synopsis.text = episode.synopsis ?: " "
                 releaseDate.text = episode.releaseDate ?: " "
@@ -53,4 +56,5 @@ class SeasonsAdapter : RecyclerView.Adapter<SeasonsViewHolder>() {
         return episodes.size
     }
 }
+
 class SeasonsViewHolder(val binding: SeasonItemBinding) : RecyclerView.ViewHolder(binding.root)

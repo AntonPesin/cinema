@@ -1,6 +1,5 @@
 package com.example.android_coursework_lvl1.all
 
-import com.example.android_coursework_lvl1.data.Repository
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -9,13 +8,15 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.example.android_coursework_lvl1.navigation.Navigation
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.adapter.ActorsAdapter
 import com.example.android_coursework_lvl1.adapter.StaffAdapter
+import com.example.android_coursework_lvl1.data.Repository
 import com.example.android_coursework_lvl1.databinding.AllActorsLayoutBinding
 import com.example.android_coursework_lvl1.models.StaffModel
+import com.example.android_coursework_lvl1.navigation.Navigation
 import kotlinx.coroutines.launch
+
 class AllStaff : Fragment() {
 
     private var _binding: AllActorsLayoutBinding? = null

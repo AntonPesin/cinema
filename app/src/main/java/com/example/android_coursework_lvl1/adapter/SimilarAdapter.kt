@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.databinding.SimilarItemBinding
 import com.example.android_coursework_lvl1.models.MovieModel
+
 class SimilarAdapter : RecyclerView.Adapter<SimilarViewHolder>() {
 
     private var movieList: List<MovieModel> = emptyList()
@@ -60,5 +61,6 @@ class SimilarAdapter : RecyclerView.Adapter<SimilarViewHolder>() {
         fun onMovieClick(movie: MovieModel?)
     }
 }
+
 class SimilarViewHolder(val binding: SimilarItemBinding) :
     RecyclerView.ViewHolder(binding.root)

@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.viewpager.widget.PagerAdapter
 import com.bumptech.glide.Glide
+
 class ImagePagerAdapter(private val imageUrlList: List<String>?) : PagerAdapter() {
 
     override fun instantiateItem(container: ViewGroup, position: Int): Any {
@@ -29,5 +30,7 @@ class ImagePagerAdapter(private val imageUrlList: List<String>?) : PagerAdapter(
         return view == `object`
     }
 
-    override fun getCount(): Int { return imageUrlList?.size ?: 0 }
+    override fun getCount(): Int {
+        return imageUrlList?.size ?: 0
+    }
 }

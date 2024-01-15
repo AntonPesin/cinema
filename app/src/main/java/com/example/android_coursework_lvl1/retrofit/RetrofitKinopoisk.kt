@@ -39,6 +39,7 @@ object RetrofitKinopoisk {
 
 }
 
+
 interface KinopoiskApiService {
 
     //Get premieres

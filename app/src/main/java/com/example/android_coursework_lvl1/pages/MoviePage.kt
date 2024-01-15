@@ -51,6 +51,7 @@ class MoviePage : Fragment() {
     private val type = "movie"
     private var isCollapsed = true
 
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

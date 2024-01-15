@@ -12,7 +12,6 @@ import com.example.android_coursework_lvl1.models.StaffModel
 import com.example.android_coursework_lvl1.retrofit.RetrofitKinopoisk
 
 class Repository(context: Context) {
-
     companion object {
         private const val PREFERENCE_NAME = "PREFERENCE_NAME"
     }

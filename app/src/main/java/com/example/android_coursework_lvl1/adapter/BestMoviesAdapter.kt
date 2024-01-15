@@ -8,7 +8,8 @@ import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.databinding.MovieItemBinding
 import com.example.android_coursework_lvl1.models.Films
-class BestMoviesAdapter: RecyclerView.Adapter<BestFilmsViewHolder>() {
+
+class BestMoviesAdapter : RecyclerView.Adapter<BestFilmsViewHolder>() {
 
     private var bestFilmsList: List<Films> = emptyList()
     private var movieClickListener: OnMovieClickListener? = null
@@ -40,7 +41,7 @@ class BestMoviesAdapter: RecyclerView.Adapter<BestFilmsViewHolder>() {
                 movieClickListener?.onMovieClick(film.filmId)
             }
             filmName.text = film.nameRu ?: film.nameEn
-            if (film.rating  == null) {
+            if (film.rating == null) {
                 holder.binding.frameRating.visibility = View.INVISIBLE
             } else {
                 ratingText.text = film.rating

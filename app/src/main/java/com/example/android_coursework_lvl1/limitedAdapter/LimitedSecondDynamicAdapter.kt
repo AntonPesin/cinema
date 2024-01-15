@@ -20,7 +20,6 @@ class LimitedSecondDynamicAdapter : RecyclerView.Adapter<LimitedSecondDynamicVie
         this.movies = movies.take(20)
         notifyDataSetChanged()
     }
-
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int,

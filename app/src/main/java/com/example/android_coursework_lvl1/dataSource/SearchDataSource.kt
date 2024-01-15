@@ -16,6 +16,7 @@ class SearchDataSource(
     PagingSource<Int, SearchMovieModel>() {
     private val loadedItems = mutableSetOf<Int>()
 
+
     override fun getRefreshKey(state: PagingState<Int, SearchMovieModel>): Int = 1
 
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int, SearchMovieModel> {

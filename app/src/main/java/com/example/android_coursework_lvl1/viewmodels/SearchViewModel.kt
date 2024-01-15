@@ -43,10 +43,18 @@ class SearchViewModel @Inject constructor(
     val pagedSearchMovies: Flow<PagingData<SearchMovieModel>> by lazy {
         keyword.flatMapLatest { keyword ->
             Pager(config = PagingConfig(pageSize = 20),
-                pagingSourceFactory = { SearchDataSource(repository, keyword,hideWatched,seenMovies) }
+                pagingSourceFactory = {
+                    SearchDataSource(
+                        repository,
+                        keyword,
+                        hideWatched,
+                        seenMovies
+                    )
+                }
             ).flow.cachedIn(viewModelScope)
         }
     }
+
     fun getSeenMovies() {
         viewModelScope.launch {
             _seenMovies.value = withContext(Dispatchers.IO) {
@@ -54,7 +62,8 @@ class SearchViewModel @Inject constructor(
             }
         }
     }
-     fun setKeyword(keyword: String) {
+
+    fun setKeyword(keyword: String) {
         _keyword.value = keyword
     }
 

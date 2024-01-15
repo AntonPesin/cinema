@@ -19,7 +19,6 @@ class LimitedGalleryAdapter : RecyclerView.Adapter<LimitedGalleryViewHolder>() {
         imageList = image.take(20)
         notifyDataSetChanged()
     }
-
     fun getAllImages(): List<ImageModel> {
         return imageList
     }

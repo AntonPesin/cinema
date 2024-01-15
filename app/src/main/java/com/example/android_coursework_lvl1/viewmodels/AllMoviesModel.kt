@@ -32,6 +32,7 @@ class AllMoviesModel @Inject constructor(
 ) : AndroidViewModel(application) {
     private val repository: Repository = Repository(application.applicationContext)
 
+
     private val popularDataSource: PopularDataSource = PopularDataSource(repository)
     private val top250DataSource: Top250DataSource = Top250DataSource(repository)
     private val firstDynamicDataSource: FirstDynamicDataSource = FirstDynamicDataSource(repository)

@@ -20,7 +20,6 @@ class LimitedFirstDynamicAdapter : RecyclerView.Adapter<LimitedFirstDynamicViewH
         this.movies = movies.take(20)
         notifyDataSetChanged()
     }
-
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int,

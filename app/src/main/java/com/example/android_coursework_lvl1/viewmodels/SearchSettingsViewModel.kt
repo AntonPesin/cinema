@@ -19,7 +19,6 @@ import javax.inject.Inject
 class SearchSettingsViewModel @Inject constructor(application: Application) :
     AndroidViewModel(application) {
 
-
     companion object {
         private val Context.dataStore: DataStore<Preferences> by preferencesDataStore("search_settings")
     }

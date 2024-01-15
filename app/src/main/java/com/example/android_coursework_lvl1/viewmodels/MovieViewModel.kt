@@ -28,6 +28,7 @@ class MovieViewModel @Inject constructor(
     private val _idState = MutableStateFlow(savedStateHandle["id"] ?: 0)
     val idState: StateFlow<Int> = _idState
 
+
     private var _isLoading = MutableStateFlow(false)
     var isLoading: StateFlow<Boolean> = _isLoading
 

@@ -20,6 +20,7 @@ class CustomView @JvmOverloads constructor(
     private val recyclerView: RecyclerView
     private val allTextView: TextView
     private val titleTextView: TextView
+
     init {
         LayoutInflater.from(context).inflate(R.layout.custom_view_layout, this, true)
 
@@ -37,7 +38,7 @@ class CustomView @JvmOverloads constructor(
     }
 
     fun check(adapter: RecyclerView.Adapter<*>) {
-        if (adapter.itemCount == 0){
+        if (adapter.itemCount == 0) {
             recyclerView.visibility = View.INVISIBLE
             allTextView.visibility = View.INVISIBLE
             titleTextView.visibility = View.INVISIBLE

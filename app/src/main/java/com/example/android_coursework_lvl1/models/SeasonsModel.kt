@@ -4,6 +4,7 @@ data class  SeasonsModel (
     val episodes:List<SeasonsEpisodes>?,
 )
 data class SeasonsEpisodes(
+
     val seasonNumber:Int?,
     val episodeNumber:Int?,
     val nameRu:String?,

@@ -35,6 +35,7 @@ class Profile : Fragment() {
     private val viewModel: ProfileViewModel by viewModels()
     private val sharedViewModel: SharedViewModel by viewModels()
     private lateinit var navigationHandler: Navigation
+
     companion object {
         private const val sharedPreferencesName = "CollectionsSharedPreference"
 

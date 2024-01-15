@@ -9,7 +9,6 @@ class Navigation(private val navController: NavController) {
     private fun getCurrentDestinationId(): Int? {
         return navController.currentDestination?.id
     }
-
     private fun navigateWithCategory(actionId: Int, args: Bundle?) {
 
         when (val currentDestinationId = getCurrentDestinationId()) {

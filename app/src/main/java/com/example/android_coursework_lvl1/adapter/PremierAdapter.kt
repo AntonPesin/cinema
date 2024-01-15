@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.databinding.MovieItemBinding
 import com.example.android_coursework_lvl1.models.MovieModel
+
 class PremierAdapter : RecyclerView.Adapter<PremieresViewHolder>() {
 
 
@@ -16,6 +17,7 @@ class PremierAdapter : RecyclerView.Adapter<PremieresViewHolder>() {
     fun setOnMovieClickListener(listener: OnMovieClickListener) {
         movieClickListener = listener
     }
+
     fun setLimitedData(premierMovies: List<MovieModel>) {
         this.movies = premierMovies.take(20)
         notifyDataSetChanged()
@@ -69,5 +71,6 @@ class PremierAdapter : RecyclerView.Adapter<PremieresViewHolder>() {
         fun onMovieClick(movie: MovieModel?)
     }
 }
+
 class PremieresViewHolder(val binding: MovieItemBinding) : RecyclerView.ViewHolder(binding.root)
 

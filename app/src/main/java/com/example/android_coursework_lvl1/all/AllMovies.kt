@@ -9,15 +9,16 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.example.android_coursework_lvl1.navigation.Navigation
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.adapter.MovieAdapter
 import com.example.android_coursework_lvl1.adapter.PremierAdapter
 import com.example.android_coursework_lvl1.databinding.AllMoviesLayoutBinding
 import com.example.android_coursework_lvl1.models.MovieModel
+import com.example.android_coursework_lvl1.navigation.Navigation
 import com.example.android_coursework_lvl1.viewmodels.AllMoviesModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
+
 class AllMovies : Fragment() {
 
     private var _binding: AllMoviesLayoutBinding? = null
@@ -160,6 +161,7 @@ class AllMovies : Fragment() {
                     }
                 )
             }
+
             getString(R.string.japan_anime) -> {
                 binding.allMoviesTitle.text = getString(R.string.japan_anime)
                 binding.allMoviesRv.adapter = movieAdapter

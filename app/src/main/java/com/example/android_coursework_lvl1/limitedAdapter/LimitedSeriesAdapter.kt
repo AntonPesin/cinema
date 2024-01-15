@@ -21,7 +21,6 @@ class LimitedSeriesAdapter : RecyclerView.Adapter<LimitedSeriesViewHolder>() {
         notifyDataSetChanged()
     }
 
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LimitedSeriesViewHolder {
         return LimitedSeriesViewHolder(
             MovieItemBinding.inflate(

@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.databinding.MovieItemBinding
 import com.example.android_coursework_lvl1.models.MovieModel
+
 class MovieAdapter : PagingDataAdapter<MovieModel, MovieViewHolder>(MovieDiffUtilCallback()) {
 
     private var movieClickListener: OnMovieClickListener? = null
@@ -61,8 +62,10 @@ class MovieAdapter : PagingDataAdapter<MovieModel, MovieViewHolder>(MovieDiffUti
 class MovieViewHolder(val binding: MovieItemBinding) : RecyclerView.ViewHolder(binding.root)
 
 class MovieDiffUtilCallback : DiffUtil.ItemCallback<MovieModel>() {
-    override fun areItemsTheSame(oldItem: MovieModel, newItem: MovieModel): Boolean = oldItem.kinopoiskId == newItem.kinopoiskId
+    override fun areItemsTheSame(oldItem: MovieModel, newItem: MovieModel): Boolean =
+        oldItem.kinopoiskId == newItem.kinopoiskId
 
-    override fun areContentsTheSame(oldItem: MovieModel, newItem: MovieModel): Boolean = oldItem == newItem
+    override fun areContentsTheSame(oldItem: MovieModel, newItem: MovieModel): Boolean =
+        oldItem == newItem
 
 }

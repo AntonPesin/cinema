@@ -8,3 +8,4 @@ data class StaffModel(
     val professionText: String?,
     val professionKey: String?,
 )
+

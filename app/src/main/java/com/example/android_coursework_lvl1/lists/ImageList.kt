@@ -5,3 +5,4 @@ class ImageList(
     val total: Int,
     val items: List<ImageModel>,
 )
+

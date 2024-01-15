@@ -263,7 +263,7 @@
     <fragment
         android:id="@+id/collection"
         android:name="com.example.android_coursework_lvl1.collection.Collection"
-        android:label="Collection" >
+        android:label="Collection">
         <action
             android:id="@+id/action_collection_to_homepage"
             app:destination="@id/homepage" />
@@ -280,7 +280,7 @@
     <fragment
         android:id="@+id/searchSettings"
         android:name="com.example.android_coursework_lvl1.search.SearchSettings"
-        android:label="SearchSettings" >
+        android:label="SearchSettings">
         <action
             android:id="@+id/action_searchSettings_to_search"
             app:destination="@id/search" />

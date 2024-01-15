@@ -18,6 +18,7 @@ import com.example.android_coursework_lvl1.viewmodels.ProfileViewModel
 import com.google.gson.Gson
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+
 class CollectionDialog : DialogFragment() {
     private var _binding: CollectionsDialogBinding? = null
     private val binding get() = _binding!!
@@ -48,24 +49,29 @@ class CollectionDialog : DialogFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        sharedPreferences = requireContext().getSharedPreferences("CollectionsSharedPreference", Context.MODE_PRIVATE)
+        sharedPreferences = requireContext().getSharedPreferences(
+            "CollectionsSharedPreference",
+            Context.MODE_PRIVATE
+        )
         val movieModelJson = arguments?.getString(ARG_MOVIE_DATA_JSON)
         val movieModel = Gson().fromJson(movieModelJson, MovieModel::class.java)
         val button = binding.accept.layoutParams as ConstraintLayout.LayoutParams
-        val secondCustomCheckBox = binding.secondCustomCheckbox.layoutParams as ConstraintLayout.LayoutParams
+        val secondCustomCheckBox =
+            binding.secondCustomCheckbox.layoutParams as ConstraintLayout.LayoutParams
 
         val isFirstCollectionExist = sharedPreferences.getBoolean("isFirstCollectionExist", false)
         val isSecondCollectionExist = sharedPreferences.getBoolean("isSecondCollectionExist", false)
 
         val firstCollectionName = sharedPreferences.getString("firstCollectionName", "").toString()
-        val secondCollectionName = sharedPreferences.getString("secondCollectionName", "").toString()
+        val secondCollectionName =
+            sharedPreferences.getString("secondCollectionName", "").toString()
 
         val firstCollectionNumbers =
             sharedPreferences.getString("firstCollectionNumbers", "0").toString()
         val secondCollectionNumbers =
             sharedPreferences.getString("secondCollectionNumbers", "0").toString()
-        Log.d("isFirstCollectionExist","$isFirstCollectionExist")
-        Log.d("isSecondCollectionExist","$isSecondCollectionExist")
+        Log.d("isFirstCollectionExist", "$isFirstCollectionExist")
+        Log.d("isSecondCollectionExist", "$isSecondCollectionExist")
         if (!isFirstCollectionExist && !isSecondCollectionExist) {
             binding.firstCustomDivider.visibility = View.GONE
             binding.secondCustomDivider.visibility = View.GONE

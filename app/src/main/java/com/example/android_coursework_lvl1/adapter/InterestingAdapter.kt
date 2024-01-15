@@ -7,7 +7,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.android_coursework_lvl1.databinding.MovieItemBinding
 import com.example.android_coursework_lvl1.models.MovieModel
-class InterestingAdapter(private var movies: List<MovieModel>) : RecyclerView.Adapter<InterestingMoviesViewHolder>() {
+
+class InterestingAdapter(private var movies: List<MovieModel>) :
+    RecyclerView.Adapter<InterestingMoviesViewHolder>() {
 
     private var movieClickListener: OnMovieClickListener? = null
     private var clearClickListener: OnClearClickListener? = null
@@ -17,6 +19,7 @@ class InterestingAdapter(private var movies: List<MovieModel>) : RecyclerView.Ad
         movies = newMovies
         notifyDataSetChanged()
     }
+
     fun setOnMovieClickListener(listener: OnMovieClickListener) {
         movieClickListener = listener
     }
@@ -59,7 +62,7 @@ class InterestingAdapter(private var movies: List<MovieModel>) : RecyclerView.Ad
         } else {
             holder.binding.clear.visibility = if (showFooter) View.VISIBLE else View.GONE
             holder.binding.frameRating.visibility = View.GONE
-            holder.binding.clear.setOnClickListener{
+            holder.binding.clear.setOnClickListener {
                 clearClickListener?.onClearClick()
             }
         }
@@ -69,6 +72,7 @@ class InterestingAdapter(private var movies: List<MovieModel>) : RecyclerView.Ad
         showFooter = show && movies.isNotEmpty()
         notifyDataSetChanged()
     }
+
     override fun getItemCount(): Int {
         return movies.size + 1
     }
@@ -84,4 +88,5 @@ class InterestingAdapter(private var movies: List<MovieModel>) : RecyclerView.Ad
 
 }
 
-class InterestingMoviesViewHolder(val binding: MovieItemBinding) : RecyclerView.ViewHolder(binding.root)
+class InterestingMoviesViewHolder(val binding: MovieItemBinding) :
+    RecyclerView.ViewHolder(binding.root)

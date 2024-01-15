@@ -27,6 +27,7 @@ class LoaderFragment : Fragment() {
     private val runnable = Runnable {
         findNavController().navigate(R.id.action_loader_to_homepage)
     }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -35,7 +36,8 @@ class LoaderFragment : Fragment() {
         binding = LoaderLayoutBinding.inflate(inflater, container, false)
 
 
-        val vectorDrawable = AnimatedVectorDrawableCompat.create(requireContext(), R.drawable.loader)
+        val vectorDrawable =
+            AnimatedVectorDrawableCompat.create(requireContext(), R.drawable.loader)
         binding.progressbar.setImageDrawable(vectorDrawable)
 
         val objectAnimator = ObjectAnimator.ofFloat(binding.progressbar, "rotation", 0f, 360f)

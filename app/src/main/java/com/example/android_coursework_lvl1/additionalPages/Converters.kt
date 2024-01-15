@@ -15,6 +15,7 @@ class Converters {
         val listType = object : TypeToken<List<MovieGenres>>() {}.type
         return Gson().fromJson(value, listType)
     }
+
     @TypeConverter
     fun toGenreString(value: List<MovieGenres>?): String? {
         if (value == null) {

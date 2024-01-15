@@ -10,6 +10,7 @@ class GalleryDataSource(
     private val id: Int?,
     private val type: String,
 ) : PagingSource<Int, ImageModel>() {
+
     override fun getRefreshKey(state: PagingState<Int, ImageModel>): Int = 1
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int, ImageModel> {
         val page = params.key ?: STARTING_PAGE_INDEX
