@@ -28,7 +28,6 @@ class PopularDataSource(private val repository: Repository) :
             }, onFailure = { LoadResult.Error(it) }
         )
     }
-
     private companion object {
         private const val STARTING_PAGE_INDEX = 1
     }

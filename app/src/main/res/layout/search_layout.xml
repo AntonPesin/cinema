@@ -63,7 +63,7 @@
                     android:padding="12dp"
                     android:focusable="true"
                     android:importantForAccessibility="no"
-                    android:src="@drawable/searchview_settings"
+                    android:src="@drawable/search_settings"
                     app:layout_constraintBottom_toBottomOf="@+id/search_view"
                     app:layout_constraintEnd_toEndOf="@+id/search_view"
                     app:layout_constraintTop_toTopOf="@+id/search_view" />

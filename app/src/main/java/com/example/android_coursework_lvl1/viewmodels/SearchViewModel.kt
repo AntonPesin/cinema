@@ -1,7 +1,6 @@
 package com.example.android_coursework_lvl1.viewmodels
 
 import android.app.Application
-import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
@@ -56,7 +55,6 @@ class SearchViewModel @Inject constructor(
             }
         }
     }
-
      fun setKeyword(keyword: String) {
         _keyword.value = keyword
     }

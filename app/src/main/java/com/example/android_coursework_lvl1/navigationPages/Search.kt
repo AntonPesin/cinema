@@ -31,7 +31,6 @@ class Search : Fragment() {
     private lateinit var searchMovieAdapter: SearchAdapter
     private val viewModel: SearchViewModel by viewModels()
     private val binding get() = _binding!!
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

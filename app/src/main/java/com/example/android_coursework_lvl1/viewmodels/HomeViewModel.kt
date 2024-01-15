@@ -23,6 +23,7 @@ class HomeViewModel @Inject constructor(
     application: Application,
 ) : AndroidViewModel(application) {
 
+
     private val repository: Repository = Repository(application.applicationContext)
 
     private val _premierMovies = MutableStateFlow<List<MovieModel>>(emptyList())

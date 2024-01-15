@@ -10,6 +10,7 @@ import com.example.android_coursework_lvl1.models.MovieModel
 
 @Database(entities = [MovieModel::class], version = 1, exportSchema = false)
 @TypeConverters(Converters::class)
+
 abstract class FavoriteDataBase : RoomDatabase(){
     abstract fun favoriteDao() : FavoriteDao
 }

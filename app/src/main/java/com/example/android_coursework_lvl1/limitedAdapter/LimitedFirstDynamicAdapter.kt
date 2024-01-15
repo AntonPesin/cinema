@@ -12,7 +12,6 @@ class LimitedFirstDynamicAdapter : RecyclerView.Adapter<LimitedFirstDynamicViewH
 
     private var movies: List<MovieModel> = emptyList()
     private var movieClickListener: OnMovieClickListener? = null
-
     fun setOnMovieClickListener(listener: OnMovieClickListener) {
         movieClickListener = listener
     }

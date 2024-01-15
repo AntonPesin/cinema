@@ -36,7 +36,6 @@ import kotlinx.coroutines.withContext
 import retrofit2.HttpException
 private const val MAX_ELEMENTS = 250
 class MoviePage : Fragment() {
-
     private var _binding: MovieLayoutBinding? = null
     private val binding get() = _binding!!
     private lateinit var actorsAdapter: ActorsAdapter
@@ -56,6 +55,15 @@ class MoviePage : Fragment() {
         savedInstanceState: Bundle?,
     ): View {
         _binding = MovieLayoutBinding.inflate(inflater, container, false)
+        lifecycleScope.launch {
+            delay(2000)
+            viewModel.isLoading.collect { isLoading ->
+                binding.navigation.visibility = if (isLoading) View.GONE else View.VISIBLE
+                binding.mainFrame.visibility = if (isLoading) View.GONE else View.VISIBLE
+                binding.movieProgressBar.visibility = if (isLoading) View.VISIBLE else View.GONE
+                binding.progressOverlay.visibility = if (isLoading) View.VISIBLE else View.GONE
+            }
+        }
         return binding.root
 
     }
@@ -136,15 +144,6 @@ class MoviePage : Fragment() {
             start()
         }
 
-        lifecycleScope.launch {
-            delay(2000)
-            viewModel.isLoading.collect { isLoading ->
-                binding.navigation.visibility = if (isLoading) View.GONE else View.VISIBLE
-                binding.mainFrame.visibility = if (isLoading) View.GONE else View.VISIBLE
-                binding.movieProgressBar.visibility = if (isLoading) View.VISIBLE else View.GONE
-                binding.progressOverlay.visibility = if (isLoading) View.VISIBLE else View.GONE
-            }
-        }
 
 
     }
@@ -193,7 +192,6 @@ class MoviePage : Fragment() {
         binding.country.text = movie.countries?.firstOrNull()?.country.takeIf { it != null }?.let { "$it, " } ?: ""
         binding.releaseYear.text = movie.year?.toString()?.let { "$it, " } ?: ""
         binding.length.text = movie.filmLength?.let { "$it мин, " } ?: ""
-
         binding.movieRating.text = movie.ratingKinopoisk?.let { "$it, " } ?: ""
         Glide.with(requireContext())
             .load(movie.posterUrl ?: movie.posterUrlPreview)

@@ -12,7 +12,6 @@ class LimitedSeriesAdapter: RecyclerView.Adapter<LimitedSeriesViewHolder>() {
 
     private var series: List<MovieModel> = emptyList()
     private var seriesClickListener: SeriesTestOnMovieClickListener? = null
-
     fun setOnSeriesClickListener(listener: SeriesTestOnMovieClickListener) {
         seriesClickListener = listener
     }

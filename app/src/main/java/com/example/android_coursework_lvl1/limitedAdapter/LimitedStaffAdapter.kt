@@ -12,7 +12,6 @@ open class LimitedStaffAdapter : RecyclerView.Adapter<StaffViewHolder>() {
 
     private var limitedStaffList: List<StaffModel> = emptyList()
     private var staffClickListener: StaffClickListener? = null
-
     fun setOnStaffClickListener(listener: StaffClickListener) {
         staffClickListener = listener
     }

@@ -14,17 +14,15 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.databinding.OnboardingFirstLayoutBinding
-private const val PREFERENCE_NAME = "PREFERENCE_NAME"
 
 class OnboardingFirstFragment : Fragment() {
 
     private lateinit var binding: OnboardingFirstLayoutBinding
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?,
-    ): View? {
+    ): View {
         binding = OnboardingFirstLayoutBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -72,6 +70,7 @@ class OnboardingFirstFragment : Fragment() {
 
 
     companion object {
+        private const val PREFERENCE_NAME = "PREFERENCE_NAME"
         private val REQUEST_PERMISSIONS: Array<String> = buildList {
             add(android.Manifest.permission.CAMERA)
             if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.P) {

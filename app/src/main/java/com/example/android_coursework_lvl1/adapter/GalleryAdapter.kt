@@ -16,7 +16,6 @@ class GalleryAdapter : PagingDataAdapter<ImageModel, GalleryViewHolder>(GalleryD
     fun setOnImageClickListener(listener: ImageClickListener) {
         imageListener = listener
     }
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GalleryViewHolder {
         return GalleryViewHolder(
             ImageItemBinding.inflate(

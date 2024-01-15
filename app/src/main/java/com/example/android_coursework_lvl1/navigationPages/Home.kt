@@ -31,7 +31,6 @@ import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 
 class Home : Fragment() {
-
     private var _binding: HomepageLayoutBinding? = null
     private val binding get() = _binding!!
     private val viewModel: HomeViewModel by viewModels()

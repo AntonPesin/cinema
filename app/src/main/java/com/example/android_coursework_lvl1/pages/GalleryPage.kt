@@ -20,7 +20,6 @@ import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 
 class GalleryPage : Fragment() {
-
     private var _binding: GalleryLayoutBinding? = null
     private val binding get() = _binding!!
     private lateinit var navigationHandler: Navigation

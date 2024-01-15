@@ -10,6 +10,7 @@
         <item name="android:textColor">#B5B5C9</item>
     </style>
 
+
     <style name="homepage_movies_style">
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">#B5B5C9</item>

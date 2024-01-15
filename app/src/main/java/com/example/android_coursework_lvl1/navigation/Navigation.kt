@@ -7,7 +7,6 @@ import com.example.android_coursework_lvl1.R
 
 class Navigation(private val navController: NavController) {
 
-
     private fun getCurrentDestinationId(): Int? {
         return navController.currentDestination?.id
     }

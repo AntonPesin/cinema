@@ -62,10 +62,8 @@ class MovieAdapter : PagingDataAdapter<MovieModel, MovieViewHolder>(MovieDiffUti
 class MovieViewHolder(val binding: MovieItemBinding) : RecyclerView.ViewHolder(binding.root)
 
 class MovieDiffUtilCallback : DiffUtil.ItemCallback<MovieModel>() {
-    override fun areItemsTheSame(oldItem: MovieModel, newItem: MovieModel): Boolean =
-        oldItem.kinopoiskId == newItem.kinopoiskId
+    override fun areItemsTheSame(oldItem: MovieModel, newItem: MovieModel): Boolean = oldItem.kinopoiskId == newItem.kinopoiskId
 
-    override fun areContentsTheSame(oldItem: MovieModel, newItem: MovieModel): Boolean =
-        oldItem == newItem
+    override fun areContentsTheSame(oldItem: MovieModel, newItem: MovieModel): Boolean = oldItem == newItem
 
 }

@@ -12,7 +12,6 @@ class LimitedActorsAdapter : RecyclerView.Adapter<ActorsViewHolder>() {
 
     private var actorsList: List<StaffModel> = emptyList()
     private var actorsListener: ActorsClickListener? = null
-
     fun setOnActorsClickListener(listener: ActorsClickListener) {
         actorsListener = listener
     }

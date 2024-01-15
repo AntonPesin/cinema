@@ -61,6 +61,5 @@ class SimilarAdapter : RecyclerView.Adapter<SimilarViewHolder>() {
         fun onMovieClick(movie: MovieModel?)
     }
 }
-
 class SimilarViewHolder(val binding: SimilarItemBinding) :
     RecyclerView.ViewHolder(binding.root)

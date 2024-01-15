@@ -21,7 +21,6 @@ class ImageDialogFragment : DialogFragment() {
         dialog.window?.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
         return dialog
     }
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

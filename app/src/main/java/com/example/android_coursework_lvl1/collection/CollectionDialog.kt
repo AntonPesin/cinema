@@ -98,7 +98,6 @@ class CollectionDialog : DialogFragment() {
             button.topToBottom = R.id.first_custom_divider
         }
 
-
         binding.accept.setOnClickListener {
             if (binding.firstCustomCheckbox.isChecked) {
                 lifecycleScope.launch(Dispatchers.IO) {

@@ -17,7 +17,6 @@ class PremierAdapter : RecyclerView.Adapter<PremieresViewHolder>() {
     fun setOnMovieClickListener(listener: OnMovieClickListener) {
         movieClickListener = listener
     }
-
     fun setLimitedData(premierMovies: List<MovieModel>) {
         this.movies = premierMovies.take(20)
         notifyDataSetChanged()

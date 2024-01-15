@@ -6,14 +6,12 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.room.Room
-import com.example.android_coursework_lvl1.data.Repository
 import com.example.android_coursework_lvl1.db.FavoriteDataBase
 import com.example.android_coursework_lvl1.db.FirstCustomDataBase
 import com.example.android_coursework_lvl1.db.InterestingDataBase
 import com.example.android_coursework_lvl1.db.SecondCustomDataBase
 import com.example.android_coursework_lvl1.db.SeenDataBase
 import com.example.android_coursework_lvl1.db.WantSeeDataBase
-
 
 
 class App : Application() {

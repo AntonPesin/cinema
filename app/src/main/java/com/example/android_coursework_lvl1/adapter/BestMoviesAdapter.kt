@@ -63,5 +63,4 @@ class BestMoviesAdapter: RecyclerView.Adapter<BestFilmsViewHolder>() {
     }
 }
 
-class BestFilmsViewHolder(val binding: MovieItemBinding) :
-    RecyclerView.ViewHolder(binding.root)
+class BestFilmsViewHolder(val binding: MovieItemBinding) : RecyclerView.ViewHolder(binding.root)

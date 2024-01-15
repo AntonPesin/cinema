@@ -25,7 +25,6 @@ class YearPickerDialog : DialogFragment() {
             return fragment
         }
     }
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

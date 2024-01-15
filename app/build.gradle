@@ -75,7 +75,6 @@ dependencies {
 
     // BoM for the Firebase platform
     implementation platform('com.google.firebase:firebase-bom:32.7.0')
-
     // Crashlytics and Analytics libraries and Messaging
     implementation 'com.google.firebase:firebase-crashlytics'
     implementation 'com.google.firebase:firebase-analytics'

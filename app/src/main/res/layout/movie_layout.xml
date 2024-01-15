@@ -238,7 +238,7 @@
                                 android:layout_marginStart="150dp"
                                 android:clickable="true"
                                 android:focusable="true"
-                                android:src="@drawable/seen">
+                                android:src="@drawable/seen_on_icon">
 
                             </ImageView>
 
@@ -250,7 +250,7 @@
                                 android:layout_marginStart="200dp"
                                 android:clickable="true"
                                 android:focusable="true"
-                                android:src="@drawable/share">
+                                android:src="@drawable/share_icon">
 
                             </ImageView>
 
@@ -327,7 +327,7 @@
                                     android:clickable="true"
                                     android:focusable="true"
                                     android:padding="5dp"
-                                    android:src="@drawable/all_icon"
+                                    android:src="@drawable/open_all_icon"
                                     app:layout_constraintBottom_toBottomOf="@+id/actors_textview"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="@+id/actors_textview" />
@@ -387,7 +387,7 @@
                                     android:clickable="true"
                                     android:focusable="true"
                                     android:padding="5dp"
-                                    android:src="@drawable/all_icon"
+                                    android:src="@drawable/open_all_icon"
                                     app:layout_constraintBottom_toBottomOf="@+id/staff_textview"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="@+id/staff_textview">
@@ -465,7 +465,7 @@
                                     android:clickable="true"
                                     android:focusable="true"
                                     android:padding="5dp"
-                                    android:src="@drawable/all_icon"
+                                    android:src="@drawable/open_all_icon"
                                     app:layout_constraintBottom_toBottomOf="@id/gallery_textview"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="@id/gallery_textview" />
@@ -528,7 +528,7 @@
                                     android:clickable="true"
                                     android:focusable="true"
                                     android:padding="5dp"
-                                    android:src="@drawable/all_icon"
+                                    android:src="@drawable/open_all_icon"
                                     app:layout_constraintBottom_toBottomOf="@id/similar_textview"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="@id/similar_textview">

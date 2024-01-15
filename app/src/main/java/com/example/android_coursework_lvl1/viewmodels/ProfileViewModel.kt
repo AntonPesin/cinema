@@ -16,4 +16,5 @@ class ProfileViewModel @Inject constructor(
     val firstCustomDao = App.INSTANCE.firstCustomDataBase.firstCustomDao()
     val secondCustomDao = App.INSTANCE.secondCustomDataBase.secondCustomDao()
 
+
 }

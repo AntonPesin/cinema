@@ -23,7 +23,6 @@ import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 
 class PersonPage : Fragment() {
-
     private var _binding: PersonpageLayoutBinding? = null
     private val binding get() = _binding!!
     private val viewModel: ActorViewModel by viewModels()

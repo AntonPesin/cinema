@@ -15,7 +15,6 @@ class LimitedGalleryAdapter : RecyclerView.Adapter<LimitedGalleryViewHolder>() {
 
     private var imageList: List<ImageModel> = emptyList()
     private var imageListener: ImageClickListener? = null
-
     fun setOnImageClickListener(listener: ImageClickListener) {
         imageListener = listener
     }

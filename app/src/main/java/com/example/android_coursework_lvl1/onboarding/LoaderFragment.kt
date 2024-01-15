@@ -9,7 +9,6 @@ import android.view.ViewGroup
 import android.view.animation.LinearInterpolator
 import androidx.core.os.HandlerCompat
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
@@ -17,8 +16,6 @@ import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.databinding.LoaderLayoutBinding
 import com.example.android_coursework_lvl1.viewmodels.HomeViewModel
-import kotlinx.coroutines.flow.launchIn
-import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 
 class LoaderFragment : Fragment() {
@@ -30,7 +27,6 @@ class LoaderFragment : Fragment() {
     private val runnable = Runnable {
         findNavController().navigate(R.id.action_loader_to_homepage)
     }
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -39,7 +35,7 @@ class LoaderFragment : Fragment() {
         binding = LoaderLayoutBinding.inflate(inflater, container, false)
 
 
-        val vectorDrawable = AnimatedVectorDrawableCompat.create(requireContext(), R.drawable.loader_step_1)
+        val vectorDrawable = AnimatedVectorDrawableCompat.create(requireContext(), R.drawable.loader)
         binding.progressbar.setImageDrawable(vectorDrawable)
 
         val objectAnimator = ObjectAnimator.ofFloat(binding.progressbar, "rotation", 0f, 360f)

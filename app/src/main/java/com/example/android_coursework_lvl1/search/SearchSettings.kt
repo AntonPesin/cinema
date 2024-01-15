@@ -37,7 +37,6 @@ class SearchSettings : Fragment() {
         _binding = SearchSettingsBinding.inflate(inflater, container, false)
         return binding.root
     }
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -79,7 +78,7 @@ class SearchSettings : Fragment() {
                 updateOrderSelection(searchData.order)
                 if (searchData.watched) {
                     searchData.watched = true
-                    binding.hideWatchedImageview.setBackgroundResource(R.drawable.seen)
+                    binding.hideWatchedImageview.setBackgroundResource(R.drawable.seen_on_icon)
                     binding.hideWatched.text = getString(R.string.show_Watched)
                     binding.hideWatchedImageview.setColorFilter(
                         ContextCompat.getColor(requireContext(), R.color.skillbox_blue),
@@ -87,7 +86,7 @@ class SearchSettings : Fragment() {
                     )
                 } else {
                     searchData.watched = false
-                    binding.hideWatchedImageview.setBackgroundResource(R.drawable.seen_icon)
+                    binding.hideWatchedImageview.setBackgroundResource(R.drawable.seen_off_icon)
                     binding.hideWatched.text = getString(R.string.hide_Watched)
                     binding.hideWatchedImageview.setColorFilter(
                         ContextCompat.getColor(requireContext(), R.color.buttons_color),
@@ -161,14 +160,14 @@ class SearchSettings : Fragment() {
                 binding.hideWatchedImageview.setOnClickListener {
                     if (!searchData.watched) {
                         binding.hideWatched.text = getString(R.string.show_Watched)
-                        binding.hideWatchedImageview.setBackgroundResource(R.drawable.seen)
+                        binding.hideWatchedImageview.setBackgroundResource(R.drawable.seen_on_icon)
                         binding.hideWatchedImageview.setColorFilter(
                             ContextCompat.getColor(requireContext(), R.color.skillbox_blue),
                             PorterDuff.Mode.MULTIPLY
                         )
                         searchData.watched = true
                     } else {
-                        binding.hideWatchedImageview.setBackgroundResource(R.drawable.seen_icon)
+                        binding.hideWatchedImageview.setBackgroundResource(R.drawable.seen_off_icon)
                         binding.hideWatched.text = getString(R.string.hide_Watched)
                         binding.hideWatchedImageview.setColorFilter(
                             ContextCompat.getColor(requireContext(), R.color.buttons_color),

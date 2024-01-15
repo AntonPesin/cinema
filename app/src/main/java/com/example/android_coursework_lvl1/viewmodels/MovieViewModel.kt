@@ -39,7 +39,6 @@ class MovieViewModel @Inject constructor(
     val seenDao = INSTANCE.seenDataBase.seenDao()
     private val interestingDao = INSTANCE.interestingDataBase.interestingDao()
 
-
     fun setNewId(id: Int?) {
         _isLoading.value = true
         viewModelScope.launch {

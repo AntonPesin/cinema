@@ -13,7 +13,6 @@ data class ActorModel(
     val profession:String?,
     val films:List<Films>,
 )
-
 data class Films (
     val filmId:Int?,
     val nameRu: String?,

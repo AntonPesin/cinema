@@ -8,16 +8,15 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import com.example.android_coursework_lvl1.navigation.Navigation
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.adapter.BestMoviesAdapter
 import com.example.android_coursework_lvl1.databinding.FilmogrpahyLayoutBinding
-import com.example.android_coursework_lvl1.models.ActorModel
-import com.example.android_coursework_lvl1.models.Films
+import com.example.android_coursework_lvl1.navigation.Navigation
 import com.example.android_coursework_lvl1.viewmodels.FilmographyViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
+
 class FilmographyPage : Fragment() {
 
     private var _binding: FilmogrpahyLayoutBinding? = null
@@ -31,7 +30,7 @@ class FilmographyPage : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?,
-    ): View? {
+    ): View {
         _binding = FilmogrpahyLayoutBinding.inflate(inflater, container, false)
         return binding.root
 
@@ -43,13 +42,6 @@ class FilmographyPage : Fragment() {
         bestMoviesAdapter = BestMoviesAdapter()
 
         val id = arguments?.getInt("id")
-
-        fun getFilms(actorModel: ActorModel): List<Films> {
-            val films = actorModel.films
-            return films.ifEmpty {
-                emptyList()
-            }
-        }
 
         //Почему-то у некоторых людей может быть два professionKeys herself and himself
 

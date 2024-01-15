@@ -259,7 +259,7 @@
         android:clickable="true"
         android:focusable="true"
         android:padding="5dp"
-        android:src="@drawable/all_icon"
+        android:src="@drawable/open_all_icon"
         app:layout_constraintBottom_toBottomOf="@+id/filmography_title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/filmography_title">

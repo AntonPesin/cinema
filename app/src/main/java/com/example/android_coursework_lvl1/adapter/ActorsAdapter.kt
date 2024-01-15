@@ -58,5 +58,4 @@ class ActorsAdapter : RecyclerView.Adapter<ActorsViewHolder>() {
     }
 }
 
-class ActorsViewHolder(val binding: StaffItemBinding) :
-    RecyclerView.ViewHolder(binding.root)
+class ActorsViewHolder(val binding: StaffItemBinding) : RecyclerView.ViewHolder(binding.root)

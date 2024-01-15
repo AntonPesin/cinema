@@ -54,5 +54,4 @@ class SeasonsAdapter : RecyclerView.Adapter<SeasonsViewHolder>() {
         return episodes.size
     }
 }
-
 class SeasonsViewHolder(val binding: SeasonItemBinding) : RecyclerView.ViewHolder(binding.root)

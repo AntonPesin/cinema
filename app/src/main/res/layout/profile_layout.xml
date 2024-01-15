@@ -65,7 +65,7 @@
                         android:focusable="true"
                         android:visibility="gone"
                         android:foregroundGravity="center"
-                        android:src="@drawable/all_icon"
+                        android:src="@drawable/open_all_icon"
                         app:layout_constraintBottom_toBottomOf="@+id/seen_title"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="@+id/seen_title">

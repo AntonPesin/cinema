@@ -8,7 +8,6 @@ import com.example.android_coursework_lvl1.models.MovieModel
 class SeriesDataSource(private val repository: Repository) :
     PagingSource<Int, MovieModel>() {
     private val loadedItems = mutableSetOf<Int?>()
-
     override fun getRefreshKey(state: PagingState<Int, MovieModel>): Int = 1
 
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int, MovieModel> {

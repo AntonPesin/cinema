@@ -21,7 +21,6 @@ class FilmographyViewModel @Inject constructor(
 
     private val _bestFilms = MutableStateFlow<List<Films>>(emptyList())
     val bestFilms = _bestFilms.asStateFlow()
-
     suspend fun getData(id: Int?): ActorModel {
         Log.d("FilmographyViewModel","$id")
         return repository.getActor(id)

@@ -83,7 +83,6 @@ class AllStaff : Fragment() {
                 )
             }
         }
-
         val navController = findNavController()
         binding.navigation.setHomeActionId(R.id.action_allStaff_to_homepage)
         binding.navigation.setSearchActionId(R.id.action_allStaff_to_search)

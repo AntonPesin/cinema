@@ -24,7 +24,6 @@ class CustomNavigationView @JvmOverloads constructor(
 
     private var navController: NavController? = null
 
-
     fun setSearchActionId(actionId: Int) {
         searchActionId = actionId
         binding.searchIcon.setOnClickListener {

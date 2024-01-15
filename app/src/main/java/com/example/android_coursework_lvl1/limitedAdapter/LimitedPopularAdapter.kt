@@ -12,7 +12,6 @@ class LimitedPopularAdapter : RecyclerView.Adapter<LimitedPopularViewHolder>() {
 
     private var movies: List<MovieModel> = emptyList()
     private var movieClickListener: OnMovieClickListener? = null
-
     fun setOnMovieClickListener(listener: OnMovieClickListener) {
         movieClickListener = listener
     }

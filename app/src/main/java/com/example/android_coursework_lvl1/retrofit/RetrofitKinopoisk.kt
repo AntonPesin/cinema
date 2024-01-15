@@ -11,7 +11,6 @@ import com.example.android_coursework_lvl1.models.MovieModel
 import com.example.android_coursework_lvl1.models.StaffModel
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
-import kotlinx.coroutines.flow.StateFlow
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -20,6 +19,7 @@ import retrofit2.http.GET
 import retrofit2.http.Headers
 import retrofit2.http.Path
 import retrofit2.http.Query
+
 object RetrofitKinopoisk {
 
     private val moshi = Moshi.Builder()

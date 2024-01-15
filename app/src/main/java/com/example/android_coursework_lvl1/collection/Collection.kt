@@ -65,7 +65,6 @@ class Collection : Fragment() {
                             secondCustomDao.getAll()
                     }
                 }
-
                 withContext(Dispatchers.Main) {
                     seenAdapter = SeenAdapter(movies)
                     binding.collectionRv.adapter = seenAdapter

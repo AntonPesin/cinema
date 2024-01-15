@@ -30,7 +30,5 @@ class ImagePagerAdapter(private val imageUrlList: List<String>?) : PagerAdapter(
         return view == `object`
     }
 
-    override fun getCount(): Int {
-        return imageUrlList?.size ?: 0
-    }
+    override fun getCount(): Int { return imageUrlList?.size ?: 0 }
 }

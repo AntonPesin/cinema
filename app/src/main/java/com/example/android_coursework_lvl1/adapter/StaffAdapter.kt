@@ -56,6 +56,5 @@ open class StaffAdapter : RecyclerView.Adapter<StaffViewHolder>() {
         fun onStaffClick(staff: StaffModel?)
     }
 }
-
 class StaffViewHolder(val binding: StaffItemBinding) :
     RecyclerView.ViewHolder(binding.root)

@@ -16,7 +16,6 @@ private const val PREFERENCE_NAME = "PREFERENCE_NAME"
 class Repository(context: Context) {
     private val sharedPreferences: SharedPreferences =
         context.getSharedPreferences(PREFERENCE_NAME, Context.MODE_PRIVATE)
-
     private val firstCountry: String
         get() = listOf("USA", "France", "UK").random()
 

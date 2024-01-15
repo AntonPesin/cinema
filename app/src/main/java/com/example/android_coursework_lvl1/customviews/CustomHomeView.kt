@@ -23,7 +23,6 @@ class CustomView @JvmOverloads constructor(
     private val recyclerView: RecyclerView
     private val allTextView: TextView
     private val titleTextView: TextView
-
     init {
         LayoutInflater.from(context).inflate(R.layout.custom_view_layout, this, true)
 

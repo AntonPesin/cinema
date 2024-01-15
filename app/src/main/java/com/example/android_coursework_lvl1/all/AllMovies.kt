@@ -161,7 +161,6 @@ class AllMovies : Fragment() {
                     }
                 )
             }
-
             getString(R.string.japan_anime) -> {
                 binding.allMoviesTitle.text = getString(R.string.japan_anime)
                 binding.allMoviesRv.adapter = movieAdapter

@@ -6,7 +6,6 @@
         android:layout_height="match_parent"
         tools:context=".all.AllMovies">
 
-
     <TextView
         android:id="@+id/all_staff_title"
         android:layout_width="wrap_content"

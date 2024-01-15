@@ -24,7 +24,6 @@ class SearchSettingsViewModel @Inject constructor(application: Application) :
     companion object {
         private val Context.dataStore: DataStore<Preferences> by preferencesDataStore("search_settings")
     }
-
     private object PreferencesKeys {
         val TYPE = stringPreferencesKey("type")
         val COUNTRY = stringPreferencesKey("country")

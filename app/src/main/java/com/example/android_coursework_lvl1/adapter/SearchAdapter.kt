@@ -63,10 +63,8 @@ class SearchAdapter : PagingDataAdapter<SearchMovieModel, SearchViewHolder>(Sear
 class SearchViewHolder(val binding: MovieItemBinding) : RecyclerView.ViewHolder(binding.root)
 
 class SearchDiffUtilCallback : DiffUtil.ItemCallback<SearchMovieModel>() {
-    override fun areItemsTheSame(oldItem: SearchMovieModel, newItem: SearchMovieModel): Boolean =
-        oldItem.kinopoiskId == newItem.kinopoiskId
+    override fun areItemsTheSame(oldItem: SearchMovieModel, newItem: SearchMovieModel): Boolean = oldItem.kinopoiskId == newItem.kinopoiskId
 
-    override fun areContentsTheSame(oldItem: SearchMovieModel, newItem: SearchMovieModel): Boolean =
-        oldItem == newItem
+    override fun areContentsTheSame(oldItem: SearchMovieModel, newItem: SearchMovieModel): Boolean = oldItem == newItem
 
 }

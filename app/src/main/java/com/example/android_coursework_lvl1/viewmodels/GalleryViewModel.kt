@@ -20,6 +20,7 @@ class GalleryViewModel @Inject constructor(
     savedStateHandle: SavedStateHandle,
 ) : AndroidViewModel(application) {
 
+
     var id: Int? = savedStateHandle["id"]
     private val repository: Repository = Repository(application.applicationContext)
 

@@ -85,5 +85,4 @@ class InterestingAdapter(private var movies: List<MovieModel>) : RecyclerView.Ad
 
 }
 
-class InterestingMoviesViewHolder(val binding: MovieItemBinding) :
-    RecyclerView.ViewHolder(binding.root)
+class InterestingMoviesViewHolder(val binding: MovieItemBinding) : RecyclerView.ViewHolder(binding.root)

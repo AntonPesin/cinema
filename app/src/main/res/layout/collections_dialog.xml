@@ -166,6 +166,5 @@
         app:layout_constraintTop_toBottomOf="@+id/second_custom_divider">
     </Button>
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
 

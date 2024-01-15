@@ -348,7 +348,7 @@
         android:layout_marginStart="26dp"
         android:clickable="true"
         android:focusable="true"
-        tools:src="@drawable/seen_icon"
+        tools:src="@drawable/seen_off_icon"
         android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sort_divider"/>

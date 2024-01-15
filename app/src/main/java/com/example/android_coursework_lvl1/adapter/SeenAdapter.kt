@@ -83,4 +83,4 @@ class SeenAdapter (private var movies: List<MovieModel>) : RecyclerView.Adapter<
     }
 
 }
-    class SeenViewHolder(val binding: MovieItemBinding) : RecyclerView.ViewHolder(binding.root)
+class SeenViewHolder(val binding: MovieItemBinding) : RecyclerView.ViewHolder(binding.root)

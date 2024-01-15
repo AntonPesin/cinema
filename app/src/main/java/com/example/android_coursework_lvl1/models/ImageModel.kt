@@ -4,3 +4,4 @@ data class ImageModel(
     val imageUrl: String,
     val previewUrl: String,
 )
+

@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:visibility="gone"
                 android:layout_gravity="bottom"
-                android:src="@drawable/seen_icon">
+                android:src="@drawable/seen_off_icon">
             </ImageView>
 
 
@@ -54,7 +54,7 @@
                     android:layout_height="9.91dp"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
-                    android:background="@drawable/homepage_film_rating" />
+                    android:background="@drawable/film_rating" />
 
                 <TextView
                     android:id="@+id/ratingText"

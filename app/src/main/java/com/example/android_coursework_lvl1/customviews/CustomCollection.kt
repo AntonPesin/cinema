@@ -18,7 +18,6 @@ class CustomCollection@JvmOverloads constructor(
     private var image:ImageView
     private var deleteIcon: ImageView
     private var collectionName : TextView
-
     init {
         LayoutInflater.from(context).inflate(R.layout.custom_collection_item, this, true)
 

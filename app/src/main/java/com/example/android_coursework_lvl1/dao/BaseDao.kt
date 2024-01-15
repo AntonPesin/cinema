@@ -14,7 +14,6 @@ interface BaseDao<T> {
 
     @Query("DELETE  FROM movies ")
     fun deleteAll ()
-
     @Query("SELECT * FROM movies WHERE movieId =:movieId")
     fun get(movieId:Int?): T
 
