@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "803048844469",
+    "project_id": "skillboxcinema",
+    "storage_bucket": "skillboxcinema.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803048844469:android:29b87c88e249e8480262fc",
+        "android_client_info": {
+          "package_name": "com.example.android_coursework_lvl1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVwvpZpgoT_ZqbVEvPLDa-UpD3uanXqR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

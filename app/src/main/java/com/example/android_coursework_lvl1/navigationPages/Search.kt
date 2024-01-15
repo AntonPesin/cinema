@@ -13,7 +13,6 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
-import androidx.room.util.query
 import com.example.android_coursework_lvl1.R
 import com.example.android_coursework_lvl1.adapter.SearchAdapter
 import com.example.android_coursework_lvl1.data.Repository
@@ -49,6 +48,8 @@ class Search : Fragment() {
             ContextCompat.getColor(requireContext(), R.color.skillbox_blue),
             PorterDuff.Mode.SRC_ATOP
         )
+
+
 
         val repository = Repository(requireContext())
 
@@ -171,6 +172,7 @@ class Search : Fragment() {
             .setPositiveButton("OK") { dialog, _ -> dialog.dismiss() }
             .show()
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
