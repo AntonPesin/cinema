@@ -6,27 +6,23 @@ import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import androidx.room.Room
-import com.example.android_coursework_lvl1.db.FavoriteDataBase
-import com.example.android_coursework_lvl1.db.FirstCustomDataBase
-import com.example.android_coursework_lvl1.db.InterestingDataBase
-import com.example.android_coursework_lvl1.db.SecondCustomDataBase
-import com.example.android_coursework_lvl1.db.SeenDataBase
-import com.example.android_coursework_lvl1.db.WantSeeDataBase
-
+import com.example.android_coursework_lvl1.data.repository.db.FavoriteDataBase
+import com.example.android_coursework_lvl1.data.repository.db.FirstCustomDataBase
+import com.example.android_coursework_lvl1.data.repository.db.InterestingDataBase
+import com.example.android_coursework_lvl1.data.repository.db.SecondCustomDataBase
+import com.example.android_coursework_lvl1.data.repository.db.SeenDataBase
+import com.example.android_coursework_lvl1.data.repository.db.WantSeeDataBase
+import com.example.android_coursework_lvl1.model.enums.CollectionType
 
 class App : Application() {
+
     companion object {
         lateinit var INSTANCE: App
         private const val FIRST_RUN_DATASTORE = "FIRST_RUN_DATASTORE"
-        private const val FAVORITE = "FAVORITE"
-        private const val WANT_SEE = "WANT_SEE"
-        private const val SEEN = "SEEN"
-        private const val INTERESTING = "INTERESTING"
-        private const val FIRST_CUSTOM = "FIRST_CUSTOM"
-        private const val SECOND_CUSTOM = "SECOND_CUSTOM"
     }
 
     private val Context.dataStore by preferencesDataStore(name = FIRST_RUN_DATASTORE)
+
 
 
     lateinit var favoriteDataBase: FavoriteDataBase
@@ -44,42 +40,43 @@ class App : Application() {
             .databaseBuilder(
                 this,
                 FavoriteDataBase::class.java,
-                FAVORITE
+                CollectionType.FAVORITE.name
             ).build()
 
         wantSeeDataBase = Room
             .databaseBuilder(
                 this,
                 WantSeeDataBase::class.java,
-                WANT_SEE
+                CollectionType.WANT_SEE.name
             ).fallbackToDestructiveMigration().build()
 
         seenDataBase = Room
             .databaseBuilder(
                 this,
                 SeenDataBase::class.java,
-                SEEN
+                CollectionType.SEEN.name
             ).fallbackToDestructiveMigration().build()
 
         interestingDataBase = Room
             .databaseBuilder(
                 this,
                 InterestingDataBase::class.java,
-                INTERESTING
+                CollectionType.INTERESTING.name
             ).fallbackToDestructiveMigration().build()
 
         firstCustomDataBase = Room
             .databaseBuilder(
                 this,
                 FirstCustomDataBase::class.java,
-                FIRST_CUSTOM
+                CollectionType.FIRST_CUSTOM.name
+
             ).fallbackToDestructiveMigration().build()
 
         secondCustomDataBase = Room
             .databaseBuilder(
                 this,
                 SecondCustomDataBase::class.java,
-                SECOND_CUSTOM
+                CollectionType.SECOND_CUSTOM.name
             ).fallbackToDestructiveMigration().build()
 
 

@@ -10,11 +10,11 @@
         <item name="android:textColor">#272727</item>
     </style>
 
-
     <style name="homepage_movies_style">
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">#272727</item>
     </style>
+
 
     <style name="movie_name_style">
         <item name="android:textSize">14sp</item>

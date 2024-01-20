@@ -1,354 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config>
-        <device id="_device_class_phone" />
-        <pickBest>false</pickBest>
-        <target>android-34</target>
-      </config>
-    </shared>
-    <layouts>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/all_actors_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/all_movies_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/collection_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/collections_dialog.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_collection_item.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_navigation_view.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_view_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/filmogrpahy_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/gallery_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/homepage_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/homepage_movies_rv.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/image_item.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/image_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/imagedialog_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/loader_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/movie_item.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/movie_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/onboarding_first_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/onboarding_second_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/onboarding_third_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/personpage_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/profile_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/search_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/search_settings.xml">
-        <config>
-          <night>night</night>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/season_item.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/seasons_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/similar_item.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/similar_layout.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/staff_item.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/yearpicker.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml">
-        <config>
-          <theme>@style/Theme.Android_coursework_lvl1</theme>
-        </config>
-      </layout>
-    </layouts>
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dab94a4d-76f0-483c-a3a6-1aead848cbbd" name="Changes" comment="final">
+    <list default="true" id="c9008c97-bad0-44a2-bd5d-ec7205745075" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/db/dao/FavoriteDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/db/dao/FirstCollectionDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/db/dao/InterestingDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/db/dao/SecondCollectionDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/db/dao/SeenDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/db/dao/WantSeeDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/lists/ImageList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/lists/MovieList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/lists/PremiereMovieList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/lists/SearchMovieList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/lists/SeasonsList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/lists/SimilarList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/models/ActorModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/models/SeasonsModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/2f1xhl5tpg1m3zkjks572z8wa/buildfingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/configuration-cache/2f1xhl5tpg1m3zkjks572z8wa/buildfingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/2f1xhl5tpg1m3zkjks572z8wa/work.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/configuration-cache/2f1xhl5tpg1m3zkjks572z8wa/work.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/ca0jlx12nvbhldyg06yfmarod/buildfingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/configuration-cache/ca0jlx12nvbhldyg06yfmarod/buildfingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/ca0jlx12nvbhldyg06yfmarod/work.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/configuration-cache/ca0jlx12nvbhldyg06yfmarod/work.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/elactpimq10x5c5e8l9f8nkc0/buildfingerprint.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/configuration-cache/elactpimq10x5c5e8l9f8nkc0/buildfingerprint.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/configuration-cache/elactpimq10x5c5e8l9f8nkc0/work.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/configuration-cache/elactpimq10x5c5e8l9f8nkc0/work.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/App.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/ActorsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/ActorsAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/BestMoviesAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/BestMoviesAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/GalleryAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/GalleryAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/ImagePageAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/ImagePageAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/InterestingAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/InterestingAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/MovieAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/MovieAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/PremierAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/PremierAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SearchAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SearchAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SeasonsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SeasonsAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SeenAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SeenAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SimilarAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SimilarAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/StaffAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/StaffAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/additionalPages/Converters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/additionalPages/Converters.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/additionalPages/ImageDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/additionalPages/ImageDialogFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/all/AllMovies.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/all/AllMovies.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/all/AllStaff.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/all/AllStaff.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/collection/Collection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/collection/Collection.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/collection/CollectionDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/collection/CollectionDialog.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomCollection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomCollection.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomHomeView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomHomeView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomNavigationView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomNavigationView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/BaseDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/BaseDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/FavoriteDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/FavoriteDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/FirstCollectionDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/FirstCollectionDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/InterestingDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/InterestingDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/SecondCollectionDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/SecondCollectionDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/SeenDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/SeenDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/WantSeeDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/WantSeeDao.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/Repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/Repository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/FirstDynamicDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/FirstDynamicDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/GalleryDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/GalleryDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/PopularDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/PopularDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/SearchDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/SearchDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/SecondDynamicDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/SecondDynamicDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/SeriesDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/SeriesDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/Top250DataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/Top250DataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/FavoriteDataBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/FavoriteDataBase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/FirstCustomDataBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/FirstCustomDataBase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/InterestingDataBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/InterestingDataBase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/SecondCustomDataBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/SecondCustomDataBase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/SeenDataBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/SeenDataBase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/WantSeeBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/WantSeeBase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedActorsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedActorsAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedFirstDynamicAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedFirstDynamicAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedGalleryAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedGalleryAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedPopularAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedPopularAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedSecondDynamicAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedSecondDynamicAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedSeriesAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedSeriesAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedStaffAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedStaffAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedTop250Adapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedTop250Adapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/ImageList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/ImageList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/MovieList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/MovieList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/PremiereMovieList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/PremiereMovieList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/SearchMovieList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/SearchMovieList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/SeasonsList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/SeasonsList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/SimilarList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/SimilarList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/ActorModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/ActorModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/ImageModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/ImageModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/MovieModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/MovieModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/SearchMovieModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/SearchMovieModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/SeasonsModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/SeasonsModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/StaffModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/StaffModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/navigation/Navigation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/navigation/Navigation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/navigationPages/Home.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/navigationPages/Home.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/navigationPages/Profile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/navigationPages/Profile.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/navigationPages/Search.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/navigationPages/Search.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/onboarding/LoaderFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/onboarding/LoaderFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/onboarding/OnboardingFirstFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/onboarding/OnboardingFirstFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/onboarding/OnboardingSecondFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/onboarding/OnboardingSecondFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/onboarding/OnboardingThirdFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/onboarding/OnboardingThirdFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/ActorPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/ActorPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/FilmographyPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/FilmographyPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/GalleryPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/GalleryPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/ImagePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/ImagePage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/MoviePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/MoviePage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/PersonPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/PersonPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/SeasonsPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/SeasonsPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/SimilarPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/SimilarPage.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/retrofit/RetrofitKinopoisk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/retrofit/RetrofitKinopoisk.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/search/SearchSettings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/search/SearchSettings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/search/YearPicker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/search/YearPicker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/ActorViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/ActorViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/AllMoviesModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/AllMoviesModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/FilmographyViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/FilmographyViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/GalleryViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/GalleryViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/HomeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/HomeViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/MovieViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/MovieViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/ProfileViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/ProfileViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/SearchSettingsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/SearchSettingsViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/SearchViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/SearchViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/SharedViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/SharedViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/Navigation.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/ActorsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/adapters/ActorsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/BestMoviesAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/adapters/BestMoviesAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/FirstDynamicAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/GalleryAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/adapters/GalleryAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/ImagePageAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/adapters/ImagePageAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/InterestingAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/adapters/InterestingAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/MovieAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/adapters/MovieAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/PopularAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/PremierAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/adapters/PremierAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/PremieresAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SearchAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/adapters/SearchAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SeasonsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/adapters/SeasonsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SecondDynamicAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SeenAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/adapters/SeenAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SeriesAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/SimilarAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/adapters/SimilarAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/StaffAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/adapters/StaffAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/adapter/Top250Adapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/additionalPages/Converters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/utils/converter/Converters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/additionalPages/Filmography.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/additionalPages/Gallery.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/additionalPages/ImageDialogFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/ImageDialogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/additionalPages/Profile.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/additionalPages/Search.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/additionalPages/Seasons.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/additionalPages/Similar.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/all/AllMovies.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/all/AllMoviesFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/all/AllStaff.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/all/AllStaffFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/collection/Collection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/collection/Collection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/collection/CollectionDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/collection/CollectionDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomCollection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/customviews/CustomCollectionView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomHomeView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/customviews/CustomHomeView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomNavigationView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/customviews/CustomNavigationView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomRecyclerView_HomePage.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/BaseDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/db/dao/BaseDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/FavoriteDao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/FirstCollectionDao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/InterestingDao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/SecondCollectionDao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/SeenDao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dao/WantSeeDao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/Repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/Repository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/FirstDynamicDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/dataSource/FirstDynamicDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/GalleryDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/dataSource/GalleryDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/PopularDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/dataSource/PopularDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/SearchDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/dataSource/SearchDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/SecondDynamicDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/dataSource/SecondDynamicDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/SeriesDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/dataSource/SeriesDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/dataSource/Top250DataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/dataSource/Top250DataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/AppDataBase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/FavoriteDataBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/db/FavoriteDataBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/FirstCustomDataBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/db/FirstCustomDataBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/InterestingDataBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/db/InterestingDataBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/MyMovies.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/MyMoviesDao.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/SecondCustomDataBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/db/SecondCustomDataBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/SeenDataBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/db/SeenDataBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/db/WantSeeBase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/db/WantSeeBase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedActorsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/limitedAdapters/LimitedActorsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedFirstDynamicAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/limitedAdapters/LimitedFirstDynamicAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedGalleryAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/limitedAdapters/LimitedGalleryAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedPopularAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/limitedAdapters/LimitedPopularAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedSecondDynamicAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/limitedAdapters/LimitedSecondDynamicAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedSeriesAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/limitedAdapters/LimitedSeriesAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedStaffAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/limitedAdapters/LimitedStaffAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/limitedAdapter/LimitedTop250Adapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/limitedAdapters/LimitedTop250Adapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/DynamicMovieList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/ImageList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/MovieList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/PopularMovieList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/PremiereMovieList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/SearchMovieList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/SeasonsList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/SeriesList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/SimilarList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/lists/Top250MovieList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/ActorModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/ImageModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/models/ImageModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/MovieModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/models/MovieModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/SearchMovieModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/models/SearchMovieModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/SeasonsModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/SimilarModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/models/StaffModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/models/StaffModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/navigation/Navigation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/navigation/Navigation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/navigationPages/Home.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/navigationPages/Profile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/ProfileFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/navigationPages/Search.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/SearchFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/onboarding/LoaderFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/onboarding/LoaderFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/onboarding/OnboardingFirstFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/onboarding/OnboardingFirstFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/onboarding/OnboardingSecondFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/onboarding/OnboardingSecondFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/onboarding/OnboardingThirdFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/onboarding/OnboardingThirdFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/ActorPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/ActorFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/FilmographyPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/FilmographyFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/GalleryPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/GalleryFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/HomePage.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/ImagePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/ImageFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/MoviePage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/MovieFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/PersonPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/PersonFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/SeasonsPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/SeasonsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/SerialPage.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/pages/SimilarPage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/SimilarFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/repository/Repository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/retrofit/RetrofitKinopoisk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/data/repository/network/RetrofitKinopoisk.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/search/SearchSettings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/SearchSettingsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/search/YearPicker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/fragments/yearPicker/YearPicker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/ActorViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/viewmodels/ActorViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/AllMoviesModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/viewmodels/AllMoviesModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/FilmographyViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/viewmodels/FilmographyViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/GalleryViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/viewmodels/GalleryViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/HomeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/viewmodels/HomeViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/MovieViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/viewmodels/MovieViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/ProfileViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/viewmodels/ProfileViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/SearchSettingsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/viewmodels/SearchSettingsViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/SearchViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/viewmodels/SearchViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/SerialViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/viewmodels/SharedViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android_coursework_lvl1/ui/viewmodels/SharedViewModel.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_right.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_right.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/add_collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/add_collection.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/back_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/back_icon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/buttons_disabled.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/buttons_disabled.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/buttons_enabled.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/buttons_enabled.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/clear_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/clear_icon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/close_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/close_icon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/collection_frame.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/collection_frame.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/collection_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/collection_icon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/favorite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/favorite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/film_rating.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/film_rating.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/first_dots_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/first_dots_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/all_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/all_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/buttons_disabled.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/buttons_enabled.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/film_rating.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/first_onboarding_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/first_onboarding_image.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gallery_buttons_disabled.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gallery_buttons_disabled.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/gallery_buttons_enabled.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gallery_buttons_enabled.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/home_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/home_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/homepage_film_rating.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/homepage_film_rating.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/loader.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/loader.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/loader.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/loader_step_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/loader_step_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/menu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/navigation_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/navigation_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/open_all_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/open_all_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/open_all_icon.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/plus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/plus.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/profile_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/profile_icon.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/search_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/search_background.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/search_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/search_icon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/search_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/search_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/search_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/searchview_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/searchview_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/second_dots_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/second_dots_navigation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/second_onboarding_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/second_onboarding_image.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/seen_off_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/seen_off_icon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/seen_on_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/seen_on_icon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/share_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/share_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/seen_off_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/seen_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/seen_on_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/seen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/share_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/share.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/show_all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/show_all.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/template.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/third_dots_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/third_dots_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/third_onboarding_image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/third_onboarding_image.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/want_see.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/want_see.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/all_actors_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/all_actors_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/all_movies_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/all_movies_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/collection_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/collection_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/actorpage_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/all_actors_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/all_staff.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/all_movies_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/all_movies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/collection_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/collection.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/collections_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/collections_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_category_layout.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_collection_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_collection_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_navigation_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_navigation_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_view_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_view_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/filmogrpahy_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/filmogrpahy_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/gallery_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/gallery_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/homepage_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/homepage_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_view_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/filmogrpahy_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/filmogrpahy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/gallery_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/gallery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/homepage_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/homepage.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/homepage_movies_rv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/homepage_movies_rv.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/image_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/image_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/image_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/image_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/imagedialog_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/imagedialog_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/loader_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/loader_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/image_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/image.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/imagedialog_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/imagedialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/loader_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/loader.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/movie_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/movie_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/movie_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/movie_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/onboarding_first_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/onboarding_first_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/onboarding_second_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/onboarding_second_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/onboarding_third_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/onboarding_third_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/personpage_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/personpage_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/profile_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/profile_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/search_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/search_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/movie_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/movie.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/onboarding_first_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/onboarding_first.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/onboarding_second_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/onboarding_second.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/onboarding_third_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/onboarding_third.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/personpage_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/person.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/profile_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/search_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/search.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/search_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/search_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/season_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/season_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/seasons_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/seasons_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/seasons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/seasons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/seasons_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/serial_layout.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/similar_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/similar_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/similar_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/similar_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/similar_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/similar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/staff_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/staff_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/yearpicker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/yearpicker.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/styles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/countries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/countries.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/genres.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/genres.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
@@ -368,125 +247,26 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$/app">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="android_coursework_lvl1" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="android_coursework_lvl1" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="android_coursework_lvl1" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="android_coursework_lvl1" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="valueResourceFile" />
-        <option value="resourceFile" />
-        <option value="Kotlin Interface" />
-        <option value="layoutResourceFile" />
-        <option value="Kotlin Data Class" />
-        <option value="Kotlin Class" />
-        <option value="Kotlin Object" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="main" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
-    <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="new_branch_name" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2ZpDGU90kUtlKYUn8vdBBUsBR62" />
+  <component name="ProjectId" id="2bES1FkYwaTEPdPkaj9lek3GF81" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;AnalyzeApkAction.lastApkPath&quot;: &quot;D:/Skillbox_Android/android_dev_1_2022/final_android_lvl1/app/build/outputs/apk/debug/app-debug.apk&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-WindowsDefender&quot;: &quot;Microsoft Defender configuration&quot;,
-    &quot;Notification.DoNotAsk-WindowsDefender&quot;: &quot;true&quot;,
-    &quot;PROJECT_TRUSTED_KEY&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;android-custom-viewC:/Users/antop/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout/2.1.4/27e12209e529970f69bc817f349c247ef238fae7/constraintlayout-2.1.4-sources.jar!/androidx/constraintlayout/widget/ConstraintLayout.java_SELECTED&quot;: &quot;ConstraintLayout&quot;,
-    &quot;android-custom-viewD:/Skillbox_Android/android_dev_1_2022/final_android_lvl1/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomCollection.kt_SELECTED&quot;: &quot;CustomCollection&quot;,
-    &quot;android-custom-viewD:/Skillbox_Android/android_dev_1_2022/final_android_lvl1/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomHomeView.kt_SELECTED&quot;: &quot;CustomView&quot;,
-    &quot;android-custom-viewD:/Skillbox_Android/android_dev_1_2022/final_android_lvl1/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomNavigationView.kt_SELECTED&quot;: &quot;CustomNavigationView&quot;,
-    &quot;android-custom-viewD:/Skillbox_Android/android_dev_1_2022/final_android_lvl1/app/src/main/java/com/example/android_coursework_lvl1/customviews/CustomRecyclerView_HomePage.kt_SELECTED&quot;: &quot;CustomView&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Skillbox_Android/android_dev_1_2022/final_android_lvl1/app/build/outputs/apk/debug/app-debug.apk&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "Rebasing main",
+    "last_opened_file_path": "D:/Skillbox_Android/android_dev_1_2022/m7_quiz_fragments"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Skillbox_Android\android_dev_1_2022\final_android_lvl1\app\src" />
-      <recent name="D:\Skillbox_Android\android_dev_1_2022\final_android_lvl1" />
-      <recent name="D:\Skillbox_Android\android_dev_1_2022\final_android_lvl1\app\src\main\java\com\example\android_coursework_lvl1\search" />
-    </key>
-    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
-      <recent name="com.example.android_coursework_lvl1.viewmodels" />
-      <recent name="com.example.android_coursework_lvl1.collection" />
-      <recent name="com.example.android_coursework_lvl1.pages" />
-      <recent name="com.example.android_coursework_lvl1.mainPages" />
-      <recent name="com.example.android_coursework_lvl1.search" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Android App.app">
+}]]></component>
+  <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="android_coursework_lvl1.app.main" />
       <option name="DEPLOY" value="true" />
@@ -554,111 +334,16 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="final_android_lvl1:app [testDebugUnitTest]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="testDebugUnitTest" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.final_android_lvl1:app [testDebugUnitTest]" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dab94a4d-76f0-483c-a3a6-1aead848cbbd" name="Changes" comment="" />
-      <created>1703110041332</created>
+      <changelist id="c9008c97-bad0-44a2-bd5d-ec7205745075" name="Changes" comment="" />
+      <created>1705778527331</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1703110041332</updated>
+      <updated>1705778527331</updated>
     </task>
-    <task id="LOCAL-00001" summary="final">
-      <option name="closed" value="true" />
-      <created>1705276376574</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1705276376574</updated>
-    </task>
-    <task id="LOCAL-00002" summary="final">
-      <option name="closed" value="true" />
-      <created>1705278139022</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1705278139022</updated>
-    </task>
-    <task id="LOCAL-00003" summary="final">
-      <option name="closed" value="true" />
-      <created>1705278532677</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1705278532677</updated>
-    </task>
-    <task id="LOCAL-00004" summary="final">
-      <option name="closed" value="true" />
-      <created>1705328343978</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1705328343978</updated>
-    </task>
-    <task id="LOCAL-00005" summary="final">
-      <option name="closed" value="true" />
-      <created>1705330280978</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1705330280978</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="final" />
-    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
 </project>

@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/OnboardingFirst">
+
     <fragment
         android:id="@+id/OnboardingFirst"
-        android:name="com.example.android_coursework_lvl1.onboarding.OnboardingFirstFragment"
+        android:name="com.example.android_coursework_lvl1.ui.onboarding.OnboardingFirstFragment"
         android:label="OnboardingFirstFragment">
         <action
             android:id="@+id/action_onboardingFirst_to_onboardingSecond"
@@ -14,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/OnboardingSecond"
-        android:name="com.example.android_coursework_lvl1.onboarding.OnboardingSecondFragment"
+        android:name="com.example.android_coursework_lvl1.ui.onboarding.OnboardingSecondFragment"
         android:label="OnboardingSecondFragment">
         <action
             android:id="@+id/action_onboardingSecond_to_onboardingThird"
@@ -22,7 +23,7 @@
     </fragment>
     <fragment
         android:id="@+id/OnboardingThird"
-        android:name="com.example.android_coursework_lvl1.onboarding.OnboardingThirdFragment"
+        android:name="com.example.android_coursework_lvl1.ui.onboarding.OnboardingThirdFragment"
         android:label="OnboardingThirdFragment">
         <action
             android:id="@+id/action_OnboardingThird_to_loader"
@@ -30,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/loader"
-        android:name="com.example.android_coursework_lvl1.onboarding.LoaderFragment"
+        android:name="com.example.android_coursework_lvl1.ui.onboarding.LoaderFragment"
         android:label="Loader">
         <action
             android:id="@+id/action_loader_to_homepage"
@@ -38,13 +39,12 @@
     </fragment>
     <fragment
         android:id="@+id/homepage"
-        android:name="com.example.android_coursework_lvl1.navigationPages.Home"
+        android:name="com.example.android_coursework_lvl1.ui.fragments.HomeFragment"
         android:label="Homepage">
         <action
             android:id="@+id/action_homepage_to_allMovies"
             app:destination="@id/allMovies">
             <argument
-
                 android:name="category"
                 app:argType="string" />
         </action>
@@ -60,7 +60,7 @@
     </fragment>
     <fragment
         android:id="@+id/allMovies"
-        android:name="com.example.android_coursework_lvl1.all.AllMovies"
+        android:name="com.example.android_coursework_lvl1.ui.all.AllMoviesFragment"
         android:label="AllMoviesFragments">
         <action
             android:id="@+id/action_allMovies_to_homepage"
@@ -78,9 +78,9 @@
     </fragment>
     <fragment
         android:id="@+id/moviePage"
-        android:name="com.example.android_coursework_lvl1.pages.MoviePage"
+        android:name="com.example.android_coursework_lvl1.ui.fragments.MovieFragment"
         android:label="movie_info_layout"
-        tools:layout="@layout/movie_layout">
+        tools:layout="@layout/movie">
         <action
             android:id="@+id/action_moviePage_to_allStaff"
             app:destination="@id/allStaff" />
@@ -111,9 +111,9 @@
     </fragment>
     <fragment
         android:id="@+id/search"
-        android:name="com.example.android_coursework_lvl1.navigationPages.Search"
+        android:name="com.example.android_coursework_lvl1.ui.fragments.SearchFragment"
         android:label="search_layout"
-        tools:layout="@layout/search_layout">
+        tools:layout="@layout/search">
         <action
             android:id="@+id/action_search_to_homepage"
             app:destination="@id/homepage" />
@@ -129,7 +129,7 @@
     </fragment>
     <fragment
         android:id="@+id/profile"
-        android:name="com.example.android_coursework_lvl1.navigationPages.Profile"
+        android:name="com.example.android_coursework_lvl1.ui.fragments.ProfileFragment"
         android:label="Profile">
         <action
             android:id="@+id/action_profile_to_search"
@@ -146,7 +146,7 @@
     </fragment>
     <fragment
         android:id="@+id/allStaff"
-        android:name="com.example.android_coursework_lvl1.all.AllStaff"
+        android:name="com.example.android_coursework_lvl1.ui.all.AllStaffFragment"
         android:label="AllStaff">
         <action
             android:id="@+id/action_allStaff_to_search"
@@ -163,7 +163,7 @@
     </fragment>
     <fragment
         android:id="@+id/gallery"
-        android:name="com.example.android_coursework_lvl1.pages.GalleryPage"
+        android:name="com.example.android_coursework_lvl1.ui.fragments.GalleryFragment"
         android:label="Gallery">
         <action
             android:id="@+id/action_gallery_to_search"
@@ -177,7 +177,7 @@
     </fragment>
     <fragment
         android:id="@+id/similar"
-        android:name="com.example.android_coursework_lvl1.pages.SimilarPage"
+        android:name="com.example.android_coursework_lvl1.ui.fragments.SimilarFragment"
         android:label="Similar">
         <action
             android:id="@+id/action_similar_to_search"
@@ -197,7 +197,7 @@
     </fragment>
     <fragment
         android:id="@+id/personPage"
-        android:name="com.example.android_coursework_lvl1.pages.PersonPage"
+        android:name="com.example.android_coursework_lvl1.ui.fragments.PersonFragment"
         android:label="ActorPage">
         <action
             android:id="@+id/action_personPage_to_search"
@@ -217,7 +217,7 @@
     </fragment>
     <fragment
         android:id="@+id/filmography"
-        android:name="com.example.android_coursework_lvl1.pages.FilmographyPage"
+        android:name="com.example.android_coursework_lvl1.ui.fragments.FilmographyFragment"
         android:label="Filmography">
         <action
             android:id="@+id/action_filmography_to_search"
@@ -234,7 +234,7 @@
     </fragment>
     <fragment
         android:id="@+id/imagePage"
-        android:name="com.example.android_coursework_lvl1.pages.ImagePage"
+        android:name="com.example.android_coursework_lvl1.ui.fragments.ImageFragment"
         android:label="ImagePage">
         <action
             android:id="@+id/action_imagePage_to_homepage"
@@ -248,7 +248,7 @@
     </fragment>
     <fragment
         android:id="@+id/seasonsPage"
-        android:name="com.example.android_coursework_lvl1.pages.SeasonsPage"
+        android:name="com.example.android_coursework_lvl1.ui.fragments.SeasonsFragment"
         android:label="SeasonsPage">
         <action
             android:id="@+id/action_seasonsPage_to_search"
@@ -262,7 +262,7 @@
     </fragment>
     <fragment
         android:id="@+id/collection"
-        android:name="com.example.android_coursework_lvl1.collection.Collection"
+        android:name="com.example.android_coursework_lvl1.ui.fragments.collection.Collection"
         android:label="Collection">
         <action
             android:id="@+id/action_collection_to_homepage"
@@ -279,7 +279,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchSettings"
-        android:name="com.example.android_coursework_lvl1.search.SearchSettings"
+        android:name="com.example.android_coursework_lvl1.ui.fragments.SearchSettingsFragment"
         android:label="SearchSettings">
         <action
             android:id="@+id/action_searchSettings_to_search"
